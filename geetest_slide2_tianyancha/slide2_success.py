@@ -13,7 +13,14 @@ import requests
 requests.packages.urllib3.disable_warnings()
 import random
 from pprint import pprint
-from geetest2.geetest import crack
+
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+
+from geetest_slide2_tianyancha.geetest import crack
 
 
 def get_captcha():

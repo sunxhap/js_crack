@@ -1,4 +1,10 @@
 
+版本使用文件      20200115
+    version 6.0.9
+    http://static.geetest.com/static/js/geetest.6.0.9.js
+    http://static.geetest.com/static/tools/gt.js
+
+
 gt 4a28913077af48ca6eadebe01f3be4d2 challenge ad082012f5181a2a3aa1a004c4847ea7
 <RequestsCookieJar[<Cookie GeeTestUser=97b8e69ed4d449955ad8baea5bfc5682 for api.geetest.com/>]>
 result ({"status": "success", "data": {"pencil": "/static/js/pencil.1.0.3.js", "static_servers": ["static.geetest.com", "dn-staticdown.qbox.me"], "path": "/static/js/geetest.6.0.9.js", "type": "slide", "maze": "/static/js/maze.1.0.1.js", "voice": "/static/js/voice.1.2.0.js", "beeline": "/static/js/beeline.1.0.1.js"}})

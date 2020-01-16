@@ -4,7 +4,9 @@
 
 ####  代码
 
-    geetest_slide2_jilin	国家企业信用信息公示系统（吉林）
+    geetest_slide2_jilin	国家企业信用信息公示系统（吉林）通过
+        调用nodejs api 移步 nodejs_demo geetest_slide2_jilin
+        
     geetest_slide2_tianyancha	天眼查登录
     www_gsxt_gov_cn
         gsxt_app_test   可获得根据关键词搜索的列表页结果

@@ -22,7 +22,6 @@ from geetest_slide2_jilin.trance_moves import *
 session = requests.session()
 
 
-
 def get_captcha():
     """
     gt 4a28913077af48ca6eadebe01f3be4d2 challenge 33266e4e56a7441b711209e43a5efc42
@@ -139,12 +138,12 @@ def get_picture_distance():
     return distance
 
 
-def ajax_php_last(initData, distance):
+def get_params_by_python(initData, track):
     # track = trace.choice_track(distance)
-    track = get_moves(distance)     # 轨迹
-    print('track', track)
+    # track = get_moves(distance)  # 轨迹
+    # [[-22,-22,0],[0,0,0],[2,0,62],[6,0,73],[8,0,78],[8,0,86],[11,1,86],[13,1,95],[16,1,106],[18,2,110],[20,2,119],[21,2,128],[23,3,135],[24,3,142],[25,3,151],[26,3,158],[27,3,182],[27,3,279]];
     userresponse, aa = get_userresponse_a(initData, track)
-    passtime = track[-1][-1]        # 轨迹滑动事件
+    passtime = track[-1][-1]  # 轨迹滑动事件
     time.sleep(2)
     ep = Encrypter()
     print('initData', initData)
@@ -154,7 +153,25 @@ def ajax_php_last(initData, distance):
 
     params = ep.encrypted_request(initData, userresponse, passtime, aa)
     print('params', params)
+    return params
 
+
+def get_params_by_api(initData, track):
+    track = json.dumps(track)  # 轨迹
+    vob_params = json.dumps(initData)
+    body = {"vob_params": vob_params, 'track': track}
+    # body = {"gt": initData["gt"], "challenge": initData["challenge"], 'distance': distance, 'track': track}
+    content = api_geetest_get_params(body)
+    return json.loads(content)["params"]
+
+
+def ajax_php_last(initData, distance):
+    track = get_moves(distance)  # 轨迹
+    print('track', track)
+
+    # params_python = get_params_by_python(initData, track)
+    params = get_params_by_api(initData, track)
+    print('params', params)
     response = session.get("https://api.geetest.com/ajax.php", params=params, verify=False)
     try:
         result = response.json()
@@ -179,16 +196,11 @@ def ajax_php_last(initData, distance):
 
 Referer = 'http://211.141.74.200/'
 gt, challenge = get_captcha()
-#
-# # gt = "4a28913077af48ca6eadebe01f3be4d2"
-geetest_get_type(gt)
-#
-# # challenge = "33266e4e56a7441b711209e43a5efc42"
-initData = geetest_get(gt, challenge)
 
-# initData = {'feedback': '', 'i18n_labels': {'feedback': '帮助反馈', 'error': '请重试', 'tip': '请完成下方验证', 'logo': '由极验提供技术支持', 'loading': '加载中...', 'refresh': '刷新验证', 'close': '关闭验证', 'success': 'sec 秒的速度超过 score% 的用户', 'read_reversed': False, 'voice': '视觉障碍', 'slide': '拖动滑块完成拼图', 'forbidden': '怪物吃了拼图，请重试', 'fail': '请正确拼合图像', 'cancel': '取消'}, 'id': 'a3f030c946c82a01131fa95cbe04906ed', 'gt': '4a28913077af48ca6eadebe01f3be4d2', 'c': [12, 58, 98, 36, 43, 95, 62, 15, 12], 'bg': 'pictures/gt/e11621516/bg/3d8a3a532.jpg', 'theme_version': '3.2.0', 'clean': True, 'xpos': 0, 'benchmark': False, 'product': 'popup', 'https': False, 'theme': 'golden', 'slice': 'pictures/gt/e11621516/slice/3d8a3a532.png', 'so': 0, 'api_server': 'http://api.geetest.com/', 'height': 116, 'template': '', 'link': '', 'type': 'slide', 'logo': True, 'hide_delay': 800, 's': '7137536c', 'show_delay': 250, 'mobile': False, 'challenge': '3f030c946c82a01131fa95cbe04906ed5v', 'ypos': 61, 'fullbg': 'pictures/gt/e11621516/e11621516.jpg', 'version': '6.0.9', 'fullpage': False, 'static_servers': ['static.geetest.com/', 'dn-staticdown.qbox.me/']}
-# initData['gt'] = "4a28913077af48ca6eadebe01f3be4d2"
-# initData['challenge'] = "7b70f27ab20ecdc7327c992e9195c54ai1"
+geetest_get_type(gt)
+
+# challenge = "33266e4e56a7441b711209e43a5efc42"
+initData = geetest_get(gt, challenge)
 
 print('initData', initData)
 img_path = os.path.abspath('./Captcha')

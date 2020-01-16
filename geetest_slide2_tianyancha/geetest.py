@@ -12,9 +12,9 @@ import time
 import random
 import os
 import re
-from geetest2 import trace
-from geetest2.img_locate import ImgProcess
-from geetest2.encrypt import Encrypter
+from geetest_slide2_tianyancha import trace
+from geetest_slide2_tianyancha.img_locate import ImgProcess
+from geetest_slide2_tianyancha.encrypt import Encrypter
 
 
 def cal_userresponse(a, b):
