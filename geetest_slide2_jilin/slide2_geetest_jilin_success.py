@@ -141,7 +141,6 @@ def get_picture_distance():
 def get_params_by_python(initData, track):
     # track = trace.choice_track(distance)
     # track = get_moves(distance)  # 轨迹
-    # [[-22,-22,0],[0,0,0],[2,0,62],[6,0,73],[8,0,78],[8,0,86],[11,1,86],[13,1,95],[16,1,106],[18,2,110],[20,2,119],[21,2,128],[23,3,135],[24,3,142],[25,3,151],[26,3,158],[27,3,182],[27,3,279]];
     userresponse, aa = get_userresponse_a(initData, track)
     passtime = track[-1][-1]  # 轨迹滑动事件
     time.sleep(2)
@@ -173,25 +172,58 @@ def ajax_php_last(initData, distance):
     params = get_params_by_api(initData, track)
     print('params', params)
     response = session.get("https://api.geetest.com/ajax.php", params=params, verify=False)
-    try:
-        result = response.json()
+
+    json_content = json.loads(response.text.replace('(', '').replace(')', ''))
+    print('ajax_php_last cookies', response.cookies)
+
+    if json_content['message'] == 'success':
+
+        # 成功轨迹写入文件
+        with open('trace_slide.txt', 'a+') as f:
+            f.write(json.dumps(track))
+            f.write('\n')
+            f.write('\n')
+
         return {
             'challenge': initData['challenge'],
-            'data': result
+            'data': json_content
         }
-    except:
-        if 'geetest' in response.text:
-            # print(response.text)
-            text = re.sub("geetest_\d*\(", "", response.text)
-            return {
-                'challenge': initData['challenge'],
-                'data': json.loads(text[:-1])
-            }
-        else:
-            return {
-                'challenge': initData['challenge'],
-                'data': json.loads(response.text[1:-1])
-            }
+    elif 'geetest' in response.text:
+        # print(response.text)
+        text = re.sub("geetest_\d*\(", "", response.text)
+        return {
+            'challenge': initData['challenge'],
+            'data': json.loads(text[:-1])
+        }
+    else:
+        return {
+            'challenge': initData['challenge'],
+            'data': json.loads(response.text[1:-1])
+        }
+
+
+def str_to_dict(headerStr):
+    rdict = dict()
+    if headerStr.strip():
+        for headItem in headerStr.split("\n"):
+            parm = headItem.split(":", 1)  # 切分2
+            if parm[0].strip():
+                rdict[parm[0].strip()] = headItem[(headItem.index(parm[0]) + parm[0].__len__() + 1):].strip()
+            # rdict[parm[0].strip()] = parm[1].strip()
+    return rdict
+
+
+def search_data(search_url):
+    s_headers = str_to_dict("""Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+                Accept-Encoding: gzip, deflate
+                Accept-Language: zh-CN,zh;q=0.9
+                Host: 211.141.74.200
+                Proxy-Connection: keep-alive
+                Upgrade-Insecure-Requests: 1
+                User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3970.5 Safari/537.36""")
+    response = session.get(search_url, headers=s_headers, verify=False)
+    print('search_data cookies', response.cookies)
+    return response.text
 
 
 Referer = 'http://211.141.74.200/'
@@ -201,8 +233,10 @@ geetest_get_type(gt)
 
 # challenge = "33266e4e56a7441b711209e43a5efc42"
 initData = geetest_get(gt, challenge)
-
 print('initData', initData)
+
+challenge = initData["challenge"]
+
 img_path = os.path.abspath('./Captcha')
 
 downloader_capture(initData)
@@ -211,4 +245,13 @@ distance = get_picture_distance()
 print('distance', distance)
 
 data = ajax_php_last(initData, distance)
-print('last', data)
+print('ajax_php_last', data)
+
+
+# 吉林 一个只能搜一次
+validate = data["data"]["validate"]
+key = 'a'
+search_url = "http://211.141.74.200/api/common/Search/{}/undefined/{}/{}/{}%7Cjordan".format(key, challenge, validate, validate)
+text = search_data(search_url)
+print('content', text)
+# http://211.141.74.200/api/common/Search/a/undefined/1d5e2b40c8edbafd855e55fbd609c0bbl0/8bbaf164196232ac87ef1b6e84d41fb9/8bbaf164196232ac87ef1b6e84d41fb9%7Cjordan
