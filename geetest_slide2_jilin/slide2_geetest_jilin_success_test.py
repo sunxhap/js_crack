@@ -42,7 +42,7 @@ def get_captcha():
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3970.5 Safari/537.36',
         'X-Requested-With': 'XMLHttpRequest'
     }
-    content = session.get(url, headers=headers, verify=False)
+    content = requests.get(url, headers=headers, verify=False)
     result = content.json()
     # print('result', result)
     if result['success'] == 1:
@@ -68,7 +68,7 @@ def geetest_get_type(gt):
                'Accept-Encoding': 'gzip, deflate',
                'Accept-Language': 'zh-CN,zh;q=0.9'}
 
-    result = session.get(get_type_url, headers=headers, verify=False)
+    result = requests.get(get_type_url, headers=headers, verify=False)
 
     geetest_user_cookie = result.headers['Set-Cookie']
     print('cookie', geetest_user_cookie)
@@ -103,7 +103,7 @@ def geetest_get(gt, challenge, geetest_user_cookie):
 
     num = 0
     while num <= 5:
-        # resp = session.get(url, params=params, verify=False)
+        # resp = requests.get(url, params=params, verify=False)
         resp = requests.get(url, params=params, verify=False, headers=headers)
         initData = json.loads(resp.text.replace("{}(".format(params['callback']), "")[:-1])
         if 'fullbg' in initData:
@@ -174,7 +174,7 @@ def ajax_php_last(initData, distance):
     # params_python = get_params_by_python(initData, track)
     params = get_params_by_api(initData, track)
     print('params', params)
-    response = session.get("https://api.geetest.com/ajax.php", params=params, verify=False)
+    response = requests.get("https://api.geetest.com/ajax.php", params=params, verify=False)
 
     json_content = json.loads(response.text.replace('(', '').replace(')', ''))
     print('ajax_php_last cookies', response.cookies)
@@ -223,7 +223,7 @@ def search_data(search_url):
                 Proxy-Connection: keep-alive
                 Upgrade-Insecure-Requests: 1
                 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3970.5 Safari/537.36""")
-    response = session.get(search_url, headers=s_headers, verify=False)
+    response = requests.get(search_url, headers=s_headers, verify=False)
     print('search_data cookies', response.cookies)
     return response.text
 

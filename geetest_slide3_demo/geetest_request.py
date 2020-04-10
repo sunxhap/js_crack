@@ -7,14 +7,17 @@ import json
 
 
 def api_geetest_get_params(body=""):
-    nodejs_api_url = "http://localhost:1008/api/geetest_slideV2"
-    # geetest_slideV2
+    nodejs_api_url = "http://localhost:1008/api/geetest_slideV3_w1"
     nodejs_headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36', }
     res = requests.post(nodejs_api_url, headers=nodejs_headers, data=body, verify=False, timeout=60)
     r_content = res.content
     return r_content
 
+
+data = {'geetest': '/static/js/geetest.6.0.9.js', 'maze': '/static/js/maze.1.0.1.js', 'static_servers': ['static.geetest.com/', 'dn-staticdown.qbox.me/'], 'beeline': '/static/js/beeline.1.0.1.js', 'voice': '/static/js/voice.1.2.0.js', 'fullpage': '/static/js/fullpage.8.9.3.js', 'click': '/static/js/click.2.8.9.js', 'type': 'fullpage', 'slide': '/static/js/slide.7.7.0.js', 'pencil': '/static/js/pencil.1.0.3.js', 'aspect_radio': {'click': 128, 'voice': 128, 'slide': 103, 'pencil': 128, 'beeline': 50}}
+body = {"vob_params": json.dumps(data)}
+print(api_geetest_get_params(body))
 
 # gt = '4a28913077af48ca6eadebe01f3be4d2'
 # challenge = '487fd7fbe26770948014a477eadbaf176q'
