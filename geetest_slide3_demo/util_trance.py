@@ -73,7 +73,7 @@ def get_moves(length):
     x_total_time = x[-1][2]
     x_total_length = x[-1][0]
     time = random.randint(1000, 2000)  # 最大时间随机
-    print(x_total_time, x_total_length, time)
+    # print(x_total_time, x_total_length, time)
 
     moves.append(x[0])  # 起始位置
     for i in range(len(x)):

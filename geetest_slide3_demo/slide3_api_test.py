@@ -13,6 +13,7 @@ import re
 import sys
 from urllib.parse import urlencode
 from datetime import datetime
+from geetest_slide3_demo.geetest_request import *
 
 
 def get_requests_cookie(res):
@@ -182,45 +183,61 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, li
 proxies = ""
 
 # step1
-# register_url = "https://www.geetest.com/demo/gt/register-slide"
-# gt, challenge = get_gt_and_challenge(register_url)
-# print('gt: ', gt, ';challenge: ', challenge)
-# #
-# # # step2
-# geetest_user_data = geetest_get_type(gt)  # 获取 GeeTestUser cookie
-# print(geetest_user_data)
+register_url = "https://www.geetest.com/demo/gt/register-slide"
+gt, challenge = get_gt_and_challenge(register_url)
+print('gt: ', gt, ';challenge: ', challenge)
+
+# step2
+geetest_user_data = geetest_get_type(gt)  # 获取 GeeTestUser cookie
+print(geetest_user_data)
+
+golable_cookie = geetest_user_data['cookie']
+
+# sys.exit()
+# ------------------------------------------------------
+w1_data = json.loads(api_geetest_get_w1(gt, challenge))
+golable_w1 = w1_data['w']
+aeskey = w1_data['aeskey']
+
+# ------------------------------------------------------
+# gt, challenge = '019924a82c70bb123aae90d483087f94', '4c4a97c35f964618d303bfdc8c34f0ba'
+# golable_cookie = "GeeTestUser=1ed46501589dd57a9eaf9a96ff878fe"
+# # 测试第一个w 可用
+# golable_w1 = ")c2JQMep41eYgRyn6yYNLTi7b3A(IEFHjYP)4IjMo)aaodcUTk8ERKLI9j5wKviht1AmosX1wMWF)g9k)DfmMz7AW)6an)hMEjh0HP6pavn2PRSk1Zp5AQCoA1zks57g0L5PUL(turzuky29l2im5lfAHD4V1CksGWEaVIeK9AfkK6GI3hKO6ehJfTN6U)wza0fE3zinxJ85PisFTwF7kqO0y6IWqVmG9KGrO4zRD2X76n66)EkojCzk2ryeKx2IWwWlkNXPNE5LzlBJBASx7XXm5bk47UJzp(lrlPyvGmyTHO)66niOkn(D5nsm6ZfHpgfx5)Q2T3S2jNMM(TdJjTi1cKK1NWAXYA9eZE22(jcazJU6yrQ7rBTIM72E4lGejusdE6x)fPB7IChmjPjydNEwNXLNPMjJnW4XFrZ1Jan8tzt(uUqNIEBdZzvH3jU20lmlCR2LGheNVtW90C6kybB2hcTYCqGLWfQVfMyg)K4qktiBH6xBvKuspsC8N41oIq5NS34Y)GTxBuyATrtUPxUI7Jv2qpqleylz31BxPjS9K57bhvcKusMo6d70XA(mVz2VLtocWsP43k)6nrbHme)nGk)I7M4dc5MrFc7MEvxkbUvFQn2fsoqcB(iaIKWY0s0(G)5O1XBgPV6r7trkbvuQkCORA(JMO1el5tWEF)I5YBIvulDA)2WVl4Yedf6dHbqCNEZYId18oO86XDC7T9nOmTtdhU)ITWqqvRRCE)yO5a1kW46qmo81QEP2jPQhOqJ9r17qk9uIJPhD2Y5PanclOZ4onR1kz1FD9VSOQ8unvk1k4zS(iLjQTAz840DWZo8vyQKdkqj43jQ8z(67Xx8NPQUjE3ETR1H8BYgctQahcR31hbhA4jtowUhlRPOf0bMf67q)rwB0eGNt0fSOgS4jtkBqu43NALNevtFSOErRemQ)X1YyoOMRXFTHoVPMkUcPgeNOt)74d0aFMRjvu9gnuncIDYHA(KZFxK7RnjyGgMNmepBnpVdk(SZSF068oJp4cBJANxWio2CpIxG9UI7fvUphW3ToclkKYt325bHVo6aPaMDslzWjDfoBgUeDFXSzF1b343KJ7EDtkzaLlFtUGa)rfMx5gYPoxMs)w)wF8)Ks(N7RYJe4su)ZilnHLbhEeNwDZfbNlqkCTGqe7pT8ON16P4ArNhHo0K4)SL9YOFrOYE7KBHCFHBL4LDmHipdjWhEJo21)5lRAY5WQGYGzYMy5CS6zE23UAu(RImWn8Hw5iuUUME8WCHoEA(m3tRBWthgT5p6Lo(f813Q2pZ3nOkbbTHVJA3lgrsQfNRU41Ag43QiDvZ16BZPolaqjcXCkluAlQWfJdL30pO8VGpPl4BIQgLtxUo(JRWVglnJaSvPoTKqDtwC3sP(Ah2lzZpdCoSwoSIO3PwI85f(TNsHB)zWu81Z7nW(MtSdlCI5OPqXLQMEDbctHCV1mvbP0X56onfrhMNHOWUjnPZ2KrwUyiFg(vBwV0RxmnEAdSCLmN)AsLJrWo(VB3J0)6dGUJRMtV251sytEzFt9(831EB39nvqyq8kMX7R(LRj10PU7q6mDl5aOrotHhcZueilF4COQwaOQygMygUOk5eXckzCEWsZqtJkk7iRR6G)Ir(wus)waB7GHVkO(jkQ7VTbWkZKrOTcYCSxaYh9G5cepMUGb(sQ35lprU(Ow2t6SBXO)aF)b28Fx2I4Dqf3ulq5Gkx7Ntg7(WgtB0DJprxuXx7Jj9Pt)B7vaOGK5UnlaJSju19mdK8CmRGj4TAAn3YDRlhcp3YakeMVhLfJUq9tIgOu5yPMZQtRNYPG1AMD3Z65vAlCvn9eETSUeiGKM9x(6RhI0diF8Acq8Uy5(zkfhEVVgq9NxDGaxMzplZuhBm7k2cJEOYYIO3w)K8YYbyrmVW(gW2C67odeB7oFTGsanzzoykGz55VS0n0zgBDjtXnK82OAk6)EhjOnPONVW0XDcYFet8O(e64ecNfwYAQwsDGsElbMT3RKdz8WXTas3hbJtEjK5fZfJj0OLaDsfjdYQkghYIHLPaYfjF9I4lsqJ5j8BJXdsx74VENC)gQG91wMv6BQ5JQHs0bViqZH88cp4A2a)hlHQHHcMBKIZxoSOFygRDfl0KNGKrxLXirz9HR4FHYYYmpPuU1UWhxFFqEkpC4zRWxdn0pNYW0IMdXnOD4aKtIjNXj06HBL9dmMSCQfBbluLYrf0nNC(rw1yD1vJtMMOOSJDQl6x(BFtwrFPzjMnO5PCf7Zo11O7wonfvwO5mAWIEfLYFCayvShXWhTigUjtlbt02nt6ecQgeAI9DHGFm6q6msn1uZyb)8LVFWCxzVxpqe6QV0mbeAxKVNYTtQlyKP2nLnuw6khAWq31Ju6KHPrpyr893xEu345sUUmUmYEpMr2bKEQSWpfPmsPHM9GkkAaZvw7TOTjeoP7AgJ0hBYW5heHeObg40vACg)W3D0P5iOxgrZWOP3SrSbM9qKLpu0ZFi5XqkRTdi6oKQXOjmMVkna97AXA3MJJak0Q.12702253c47d619084b62d718a99ad4d2bdca0a8bdc3cd973960615ce5886aa4671f73503bbbf1d44a773f1266494f38fa31f07f698e9098e915734bc2f565543cbceb6d61732078afeaa3d77a0ec143f19a3faa2edaeaa4307f9366daf76690595d58184efc0409874263357be33f17a31a1c39b04a150998666c66502f47cc"
+#
+# # step3
+# golable_cookie = geetest_user_data["cookie"]
+print('golable_cookie', golable_cookie)
+initData = geetest_get_params(gt, challenge, golable_cookie, golable_w1)        # 第一次获取c,s
+print("initData: ", initData)
 # sys.exit()
 
 # ------------------------------------------------------
-# gt, challenge = '019924a82c70bb123aae90d483087f94', '2cdd110952f2998bfc82cfb5d1d83853'
-# golable_cookie = "GeeTestUser=ed1a10455aac78cc4da588377f4a3a6"
-# # # 测试第一个w 可用
-# golable_w1 = "U)Lc4hrsS8w5O4wV)tvsHRbNr)TjOYEjTG(EfyAlR8VDKuzgkaIkYLjeYCGYsiIThiMVM9l4m7M4zoj0Y8acuj59cpCFfQES)pmpQAr3kxSqcillz1D(hbWc(Rh9u4mV)wWNvr8JNE6WvQdwJFDKKiWcMX3Ep9EvNUbrO8xzM8M1ROkBFCdSN(TdGMiLuCKjZcZh5DrX8ui3Q7y7HG1XPlQP0CKpciGDSi5hJuUTec4wr28KMPYOGuh2jfss0kDOoz7yjiSfWTofM2kERBsXqnHnakLNnMGZa42w59rVpAuG1YrTQdTSH2orcY0CgHmZHvCllLQ)lSJWaQA72Ct4xbZF89etOQce9UhuN6axoYBYJlq5EGlMaSf4rRMVd2QAAKgfeo5NF4YK0IiQzZ8HKxJkfNCPdwCddg)i1RqAgJerz3FuBOHa9d(z)B(4aEGbocY2WfVIRr97mYtxxeH5ASXnjQ4i8yEyt6W56a(pIGkU)gVxaSHenlH5JtWp4JOfQ4v9tmUAcgcEnUyZUIQC1vXV0IXdBejL(UhMI0BfvjTZ57vXIpf5InJK5Raggw0q8xGh5U(L5cHw8SVyh2ATln(2fuA(cTpoWfC9B5ctyL1Zhc5t4xZhrtGAEjb8Qkclb35iM10zs)JDAUL0xTEyzVkpAWO2MBXsglMqRojXXYTYKvCXAq17LpHQ93FeNw6toDoCixkT)i4rZ(fL0(g0J6EHyElWZzJ2U)F8Snx77gSGQfUP5IwpD0k1wNesJiMzNJKJYduIQ8o2W99xWsFayPBVr545f(z3FgKRsfXImhYu5(co(d5hoOVHDFSHRUR8Pvxlp0ov(ghXfKNMhQ8KBnCah2bb41qYh3ukeY0(96)pINedXuVmv9tbidWbOA1CoKhuHKqPl3XmNQQVfSFMHA3WrgYwuCl3U7feV8wQ9JYsNJMWIdQJdKGTqI8azRDGriBEnzRyabhD9cBgQMzfuwdrthY9EISO2RBX8C7K5cDd8WiugucJx809AHq)9VO4cX)7Mt9mk2s0I22xeKtJui(15gq8Xjr0)2DOwKMRDvsn(HNx(S2CdFMfAwxxZySas)4kR8nscT923sde(T4VQEGGCd8i8Gafc8KiZW0TdFICQAW1JtfQi(6ZP(rV4KL8wIyNDuXy8gq)C5Bjbs(EL2fASI(VpB7C9P)ippPOvmoTWxtA8Fd(hOQtV5SLskh0ZVc7DgLBCGi4)QxZh9BXTKaPMrO5ICRjfDZs7(BX88UEhWkho4GIsGUJS3(tx3SS8dgmHXEJD1w)vv78PLdu09EDbT9GfcbADKk9HEJ3gZachqQ(EtLTe9jt(CvIvKv)vzxUrksYESTGYKTLtJW6Q2)YZtNxM2gmCjMZShup6Di6atpzGEcdnm1DddmKBy(1xkwerF4hSI7mG5Q9rfQqaMcEmkoCNLUovIMHtjtShGaJ7TxRQBJaGglstbu1wK(PmrC2sHngUuaDIELZl4(gn6KwX8ojjRmGiKroXolmBcXUTmlgb1EOHRoe8uZ((zqvswI0JMzqtU5lzHPcObbpURnYuJ3ti5zOHtIsloUYIbCrrDMLF2YrObGhIHxrycWJzybmstRB1BH(CDC0Ce7kQuUdORkixJsPN2dcjViY94jzgLAQmm1JHNwMU2NAynpH5dw)6llxiZQ7hty87wjAoYU8fNUTUbKP6ZQQiEyfd(G75ep(XylkVXyMNSHRcDq06GVEWmEDJQ0ge5hPGta5q(EafXuMXEw3V0EVqVtn2nDoc0GwgTCvuVD66XTngkds((FG8mcvMQhLFLH4qvaz6i8MCHwHNhO)0RwsiUqnv69kAXFbGmGKAkh9)jmtBkjbe2A1I)7S0m9Io7V9mrQq2xj8vLoohTP30V(Xx2yO4bn0a)(gyMgW28ohAZU4ek2lPKgY2BRhL9kC0YEKb3JfbZhQFgsfsCN41)Bh7WO9BrhH2DFD004ceQim195U6ebfO6EuWEa)n1VGG4vOMgZdxyoc(IPRhxjhlxXK9xGiW72(CoMDdymnEJ3Ju5RZNV)xffALNPnALiGsGGA7tBBPH)qIuCqivNVObqd41hEq7gzWFRFwTpN5m5WUmVdUEI)mMeVVOxNwuKcjGeRDlGatwC8wMePeIRxOIapm4v((UI4Vh)4fDm98W5Ul4o)chUUfde5YXBYjoZBJLlFXKgIVmnfgc9pYvSP8irVG)i5WExeWE2xuY9Jo8bxd3kpeps4Axo6Z7bFCVrR20ODco0zA)2Uzl)DSU3VQnZKOlXVjzbCap8bGAFlT9qzCK9m0qj8jO6u2eLIpoP7Z)tg6oiHuOXY(QEl58MFVwLixkhkI0RmM6BBlIJpfZZzDuCcmf9Lw99acvSJU8i0T4)2LuhaozlkGBUQpO2GqlloKa4ag(4Ra)yerjvQK(WDlPe3wDq)crg0(MId0KRwe0moj4BY1PgELdmcDX7mC7mKrXP6o0JfvwW0xnAUtSSvNapxGcfQNe8EC(MSMGAyDW7KU29S2(Y0D8D)QC9JHi9SGGoA5lo8.45c2a34b530a936f1e31e62f4d068ae01f0fe866f92f5ca515c240e8eb5636ebd29333d2893cb295cc1f8e054799efbe6301dcd66f4a62669a4883874da21efd30d837f2066f931ea2a5c96755113916c4425ab24645f5fb2833d400a9e94c14128b7d56c27425377609e947e7d0d317944b32ab369d5b7d8fb02e3a6a4c1b6f"
-# #
-# # # step3
-# # golable_cookie = geetest_user_data["cookie"]
-# print('golable_cookie', golable_cookie)
-# initData = geetest_get_params(gt, challenge, golable_cookie, golable_w1)        # 第一次获取c,s
-# print("initData: ", initData)
-# sys.exit()
+w2_data = json.loads(api_geetest_get_w2(gt, challenge))
+golable_w2 = w2_data['w']
+# ------------------------------------------------------
+# get w2
 
 # time.sleep(1)   w2 request
-# gt, challenge = '019924a82c70bb123aae90d483087f94', '2cdd110952f2998bfc82cfb5d1d83853'
-# golable_cookie = "GeeTestUser=ed1a10455aac78cc4da588377f4a3a6"
-#
+# gt, challenge = '019924a82c70bb123aae90d483087f94', '4c4a97c35f964618d303bfdc8c34f0ba'
+# golable_cookie = "GeeTestUser=1ed46501589dd57a9eaf9a96ff878fe"
+
 # step4
-# golable_w2 = "sYuepN(PctTiPEENqViMqywah4DScdX1ef46Z)5qc5E1fwBAlFi0G9IJMds8Epedc1Wq8eqV)a4adEGM)sxsMARrEmKGqzFdFi2nJMlh)WQfq)PV6PSvrwxMezFkry2fbkHKz7JyC5EOKJ7nKFA80IaS3EdtfDQ)usfnLNxLLN2aya9jHQbltJaveiAIrvB6AWe0CoiY465qPLZwkU87xV)0AFrkXshXOWCyBAI1l6GlE0BBu267qJBsy8)IK7jshpERSBeUQhbgQHlhzRZk4W1Bo5VolcrDESDtl)1GRhs8SWyXwH8T470d(n7tsl3KL5bOC7t2YVpB80yLxi(4UKftuYgbsdp1enou)bhmtNs2VHcLhvhntoa3rBfqQ4o2xnu(uMZAZkDKGbT2E9i0llp5i0p8RLyFfjiZ3HWPgYDR435ZSE4epf8gRSbj9Su3f(dY01NK0JXXG1DpxsYuVCicz7FQkjqg8B78pNOHL2MTzpHA0hY83pPzqOcKhg6NbJnwALGYZ0gkGQT9XjmaFTAJf8Jl)7lddENfskC1P12Dk(Gr5(hdQEEIh5r9SQOP1zJg7212Ht1Ldh7EbAcAJwp5NggCkarnUuGjvxMar4oPX2QNPNyiVKTRrnU9V4OWLQcmBlBDK)frAmuMqr7FjRC05IlnkvoaoHBPjsGBrscXFU1MXtnoYr2CY9JE1igutZ52TIdrMCww3OHrbt2qPj7GxSonZRUY7oEtX3xQAyn9RyVMR63JrAipn1j94fgJ(wQpLsCSX1bQDeIwoE13dpriv8oXPap8U)vwN9XD3afrcGpKDQLk1rhijtXwO6nspD7lYB39x8FoGHkusRuDuNfrkMZb58YPdaSPzr9Whz7ndm7NUegO8Rtcp2Vfdmbeumd)rqsHOAuU17dE5I50Zbn(W13Cr4r6TX)P5Og3lL6z3vim50OWUj5SBIw7gfxZpmBiAOHr744XF7jnufduOVKLpJOYUQcJYKkaOv7zHYslcIe0svigw052Txhb3zvKFrqGpIOFqo7LnVrbTljckfE0JkuYTqKiyeHIB0SQ6E4F3xCsSu4gz2gowAoPz12ow(bo68u0LDwyzIyVCCu47CovN2bCFIBhlVSFgpZEa7OBvl(CqpYaPDLhCJrmI3WNGVacvJ7zllDCdqJ6zN7rLSJdj2h13xgv6JL0nJHLLRb(cMa(lnr69(BnNwApjMH7mQY076Emxo0Wt5IutRUyYKiVoPcQ748tYH1xa5OGf9PeBdobuKoBP4Bv(FIt6hBzsRUROdj98w5HSfdcQFXqbeMfTwfVW(i0gnAQpQCwU7KjC(4S(knuj4UyoOLeeft7T9XpZq7lfOCYQmlMXlFdcnA00KHd2P3FTvfWS2IhU70hm3K2MLyji(jUeMJoPrjJ"
-# ajx_data = geetest_ajax_user_cookie(gt, challenge, golable_cookie, golable_w2)         # GeeTestAjaxUser cookie  验证w2
-# print('ajx_data', ajx_data)
+# golable_w2 = "E93ZTlZsrFY(1a8LlQU)MI3v3orVMqPQiH18UwQCJVMbVuXTtY2Yi)1V)IXbFx3f5xpgN5BpWzlbhH)qHMDXur67S3SY3VEN1YQwW16mEqCemmoa)ohG12jzLqanuEO1YUq0)ObxGDlk96OmakbiiH99nEsg1J4LahUAkcq5FokgOBLvwDIAWtD297wG)QYNuCEubmp9At5J)RtwqeQf(uW(YJ9iIfCL58xxjb8WU26x6xJuap7rip4nzQBxz4QN7cAg1n59kfhGcqZZjTAdkCXRuVuAPN7nMSB53FLTmftjNGFho44pWho336DYdilzKQHB0PCow0Dc(nUzEc1l(2Zs1lXVnYqIZU03AdJckOKY32(VjtbGIbHjRVVAxCpt942(G3RTWayLpkCICM1TWoEFzzgiYEvk0TPlcC1te0EZ)nNGNsnwVA0nyB7pmH92uEWfCJgoHLUvWh7IWAvuP5QJ2Cf5jYicc90DNhzjq1c9TRBbFyYOXCQa(vaR5PYMAQ2vmrutN)bt4AH4227hQrIZyqjFk2b2ozqK6BexXHpthbltrMpl1suODVXKzRE6rAOMIQX98PgbaOABYpIqiujDIZbMD4NvkvIiUT)aq0AReKREehQYVeKojSS0gZaL3KgpnBH8txCFYq97(bvQ3k8r7n9qZGHEj7ZN6SDJ)IDueCBlkjIvuKjiPxTWt5Xj19LQ1IXZrmN)lKzbmDoxOuTj5jhWXHDh8O(gZJGp2THeX0lEBnCHlV83okG7amMU6b)nGHkZWmJagy3gSLKxyoAwn7IahovSPs3cV76(IO1yq4QIv9Ishy0e56Z7fKUQuhmtsibjCF4cYmmdOFju13QBk(jiWjn8qZ()RTGIKkf9r55JM65DAyCtZgXXBLt3MxzuvGqOYIxFPN245AOzWUrd8T3hVJdsiFb9qm4LphS0lJzNmXQsbiVFuP9dDSONogzGYDAQEzNeUCfvabdxm2Z)Za8BAaaz)6)1bHGoJS)co7CPvdRNAfDsEBjk9OF(wglaSc7AEAdyeVDNw5wQAZmylVlHRSXwWIw2YL60uHXnZBag6ESghegcW5D5jojWGZ(zktJBnykfpCAIgpD7hBFdfjhL0JsLiAYKQVhHJNfHPkr3WdFFb5QIauTA5JfXofCDwzdqcRYz27JwfUwhHcTrlVEeuJYrC)qJirYjL4TBmniGZCAbxAswXoatGGJf(VRnEfMsgX2Bu(3ZTkzpaAGVKFgWTqrea2dW)6Anz9Vf6PloTXqbc3TGADwhDhQH2PoQ(xC1TBwHU6fxcJFwdPN5JDNTXTv02VFNmJ5NbYyrhYeilTeO8uj)7MpTyp07paiJCj0oLNuhHzOBr7)2jfxVxQDLcU36yMP3wJDvsBFiUY8k3M1WlggHeZDPtnmk"
+ajx_data = geetest_ajax_user_cookie(gt, challenge, golable_cookie, golable_w2)         # GeeTestAjaxUser cookie  验证w2
+print('ajx_data', ajx_data)
+r_cookie = ajx_data['ajx_data']
+
 # sys.exit()
 
 # ---------------------------------------------------------
-gt, challenge = '019924a82c70bb123aae90d483087f94', '2cdd110952f2998bfc82cfb5d1d83853'
-golable_cookie = "GeeTestUser=ed1a10455aac78cc4da588377f4a3a6; GeeTestAjaxUser=f6715e8909002b8bc6ded7da79972f6"
-# print('golable_cookie', golable_cookie)
-# get_data = geetest_get_php(gt, challenge, golable_cookie)
-# print("get_php get_data", get_data)           # 拿参数
-# sys.exit()
+# gt, challenge = '019924a82c70bb123aae90d483087f94', '2cdd110952f2998bfc82cfb5d1d83853'
+# golable_cookie = "GeeTestUser=ed1a10455aac78cc4da588377f4a3a6; GeeTestAjaxUser=f6715e8909002b8bc6ded7da79972f6"
+golable_cookie += r_cookie
+print('golable_cookie', golable_cookie)
+get_data = geetest_get_php(gt, challenge, golable_cookie)
+print("get_php get_data", get_data)           # 拿参数
+sys.exit()
 
 # -----------------------------------------------------------------
 golable_w3 = "NnbdXKyqzHIwQUbvgAgUg8y6JjhHiN5ZXRfEr)ebBKkzAKnKeBHOMYCr2Jlb00A3uu7nyfNhoDF986v7PciOIveVzkE8ZGEzehnpkQBYyRCb(xS9qIx1T1iBLBzMYBqvK7pTuOEvGahrraySMWQyStOrWGHcW(Uico7hTsmMXVk5B5wSJ4)N2RA6xJ)F9qEidDma4qhXm7Hh3T2XkGRSpv9PQQ5fqEh32dloZx0q1PNlm8)8Kt28od6i8hkc0DSSm8gYhtDSiqqUsGxgiVueP6H6kyHhPc)((cbz8TcPHvMWqhV7qdouf(YFxcnVS71mDLfkLs3d9R6nISa1cBlsWVr0ZgKEE(vDEOZ552msoUL8kX0G9cO604M703lzRm4tVsjg11p2XPKpQQ78xtKHoo5UWlkNQfwJ8ricb(wF)SCvzCv7YyQCfAUJrb8K5oKgh5yqr5fCupdzPkC(nv)LwuS4NSsa5DN73NbM1x9BVDrQhf2jABMEZBxMrSt25AxNNhOQqIm(wHRDCluZfRX31GoRyC4Tsm6H1m8v(phOnUuMhfHp2kMX5JVfoa(nberktDbC4K59grJfg1)3hfwWRwqPXDbdaOoT2h6uPKKYxcGp)tPQcAxYE6NDDpFPCx0arOpiSopPiiJq1p7aP1aQow5HIkaii5zGG)wo5XgpC25N6VtrK7ly5vIpNqHIdC3TojJ8iQqnGb9H4Kym0PUiXsviGxpIiICp8GXNYHcJTREjkQckIxM8Tr1raZXyIHP1MLmfBQLeMB7fvxw5VJvVZVwqj1)eySd(byAte9AlaQIxthNbTJUY03dybSyjAeosbv3aP3GlbiIz06K3oM4A6QspoaLwQFmvDtGU02N3m)uSb)p05bLS7h57xDnuVQuY61c46e5ca9bae259f8eacb25ee90f20d99c6c375042e0f536126dfed9e3aeee2ad5caf05a172e0e53c703fae28548942edcb23a7167e7902c6b80ec8b6593aeee9843255eeb99be449f32e0dcb3df431449c9c78b9748d0c959f32477dd02d4f532637fbcdb249848507641709276b5e7271e610ea4945d383ced710cad63153"

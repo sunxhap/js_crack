@@ -3,7 +3,50 @@
 
 import requests
 import json
-import json
+
+
+def api_geetest_get_w1(gloable_gt, gloable_challenge):
+    nodejs_api_url = "http://localhost:1008/api/geetest_slideV3_w1"
+    nodejs_headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36', }
+    body = {'gloable_gt': gloable_gt, 'gloable_challenge': gloable_challenge}
+    res = requests.post(nodejs_api_url, headers=nodejs_headers, data=body, verify=False, timeout=60)
+    r_content = res.content
+    return r_content
+
+
+def api_geetest_get_w2(aeskey, gloable_gt, gloable_challenge, global_c, global_s):
+    """
+    :param aeskey:
+    :param gloable_gt:
+    :param gloable_challenge:
+    :param param_c:
+    :param param_s:
+    :return:
+    """
+    nodejs_api_url = "http://localhost:1008/api/geetest_slideV3_w2"
+    nodejs_headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36', }
+    body = {'aeskey': aeskey, 'gloable_gt': gloable_gt, 'gloable_challenge': gloable_challenge, 'global_c': global_c, 'global_s': global_s}
+    res = requests.post(nodejs_api_url, headers=nodejs_headers, data=body, verify=False, timeout=60)
+    r_content = res.content
+    return r_content
+
+
+def api_geetest_get_w3(gloable_gt, gloable_challenge, global_c, global_s, slide_xy, distance, slide_time):
+    """
+    :param aeskey:
+    :param gloable_gt:
+    :param gloable_challenge:
+    :param param_c:
+    :param param_s:
+    :return:
+    """
+    nodejs_api_url = "http://localhost:1008/api/geetest_slideV3_w3"
+    nodejs_headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36', }
+    body = {'gloable_gt': gloable_gt, 'gloable_challenge': gloable_challenge, 'global_c': json.dumps(global_c), 'global_s': global_s,
+            'slide_xy': json.dumps(slide_xy), 'distance': distance, 'slide_time': slide_time}
+    res = requests.post(nodejs_api_url, headers=nodejs_headers, data=body, verify=False, timeout=60)
+    r_content = res.content
+    return r_content
 
 
 def api_geetest_get_params(body=""):
@@ -15,9 +58,26 @@ def api_geetest_get_params(body=""):
     return r_content
 
 
-data = {'geetest': '/static/js/geetest.6.0.9.js', 'maze': '/static/js/maze.1.0.1.js', 'static_servers': ['static.geetest.com/', 'dn-staticdown.qbox.me/'], 'beeline': '/static/js/beeline.1.0.1.js', 'voice': '/static/js/voice.1.2.0.js', 'fullpage': '/static/js/fullpage.8.9.3.js', 'click': '/static/js/click.2.8.9.js', 'type': 'fullpage', 'slide': '/static/js/slide.7.7.0.js', 'pencil': '/static/js/pencil.1.0.3.js', 'aspect_radio': {'click': 128, 'voice': 128, 'slide': 103, 'pencil': 128, 'beeline': 50}}
-body = {"vob_params": json.dumps(data)}
-print(api_geetest_get_params(body))
+def get_validate(gt, challenge):
+    nodejs_api_url = "http://localhost:6081/get_validate"
+    nodejs_headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3887.7 Safari/537.36', }
+    res = requests.post(nodejs_api_url, headers=nodejs_headers, data={'gt': gt, 'challenge': challenge}, verify=False, timeout=60)
+    r_content = res.content
+    return r_content
+
+
+# gt = '3a99b6b7637b498ac1f7c02bafa7e9bc'
+# challenge = '9fd667322030ad58bc5e68449558c888'
+# get_validate(gt, challenge)
+
+# gloable_gt = '019924a82c70bb123aae90d483087f94'
+# gloable_challenge = '4c4a97c35f964618d303bfdc8c34f0ba'
+# print(api_geetest_get_w1(gloable_gt, gloable_challenge))
+
+# data = {'geetest': '/static/js/geetest.6.0.9.js', 'maze': '/static/js/maze.1.0.1.js', 'static_servers': ['static.geetest.com/', 'dn-staticdown.qbox.me/'], 'beeline': '/static/js/beeline.1.0.1.js', 'voice': '/static/js/voice.1.2.0.js', 'fullpage': '/static/js/fullpage.8.9.3.js', 'click': '/static/js/click.2.8.9.js', 'type': 'fullpage', 'slide': '/static/js/slide.7.7.0.js', 'pencil': '/static/js/pencil.1.0.3.js', 'aspect_radio': {'click': 128, 'voice': 128, 'slide': 103, 'pencil': 128, 'beeline': 50}}
+# body = {"vob_params": json.dumps(data)}
+# print(api_geetest_get_params(body))
 
 # gt = '4a28913077af48ca6eadebe01f3be4d2'
 # challenge = '487fd7fbe26770948014a477eadbaf176q'

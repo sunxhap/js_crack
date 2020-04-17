@@ -17,7 +17,15 @@ with open('slide.7.7.0_old.js', 'r') as f:
 
 def response(flow: mitmproxy.http.HTTPFlow):
 
-    print(flow.request.url)
-    if 'slide.7.7.0' in flow.request.url:
-        print(flow.request.url)
-        flow.response.set_text(slidejs)
+    # print(flow.request.url)
+    # if 'slide.7.7.0' in flow.request.url:
+    #     print(flow.request.url)
+    #     flow.response.set_text(slidejs)
+
+    # if 'index_parent.jsp' in flow.request.url:
+    #     print(flow.request.url)
+        # flow.response.set_text(slidejs)
+
+    text = flow.response.text
+    text = text.replace('debugger', 'console.log("debugger")')
+    flow.response.set_text(text)

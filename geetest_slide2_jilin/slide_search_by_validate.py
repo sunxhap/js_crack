@@ -10,6 +10,7 @@ import sys
 
 session = requests.session()
 
+
 def str_to_dict(headerStr):
     rdict = dict()
     if headerStr.strip():
