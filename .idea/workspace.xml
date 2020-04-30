@@ -4,8 +4,11 @@
     <list default="true" id="43e160fb-c754-4457-a156-8916456759b5" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run_geetest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun_click/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun_click/yidun_click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mitmproxy_demo/old_core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mitmproxy_demo/old_watchman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yidun_click/yidun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yidun_click/yidun_click_jzsc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yidun_click/yidun_get_token.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js" afterDir="false" />
@@ -15,6 +18,8 @@
       <change beforePath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitmproxy_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mitmproxy_demo/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun_click/yidun_click.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,46 +31,8 @@
     <session id="191971693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gif" value="2" />
-          <entry key="jpg" value="7" />
-          <entry key="js" value="9" />
-          <entry key="md" value="3" />
-          <entry key="png" value="5" />
-          <entry key="py" value="77" />
-          <entry key="txt" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="14" />
-          <entry key="JavaScript" value="9" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="77" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="48" />
-          <entry key="py" value="4265" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="4265" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-770">
-              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="75" selection-end-column="51" />
+            <state relative-caret-position="5778">
+              <caret line="215" column="27" selection-start-line="215" selection-start-column="27" selection-end-line="215" selection-end-column="27" />
               <folding>
                 <element signature="e#51#66#0" expanded="true" />
               </folding>
@@ -85,19 +52,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_bilibili_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="306" column="37" lean-forward="true" selection-start-line="306" selection-start-column="37" selection-end-line="306" selection-end-column="37" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yidun_click/yidun_click.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+            <state relative-caret-position="1404">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
               <folding>
                 <element signature="e#50#65#0" expanded="true" />
               </folding>
@@ -106,10 +74,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yidun_click/yidun_click_jzsc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yidun_click/yidun_get_token.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="25" column="173" selection-start-line="25" selection-start-column="173" selection-end-line="25" selection-end-column="173" />
+              <folding>
+                <element signature="e#51#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="50" column="79" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="79" />
+            <state relative-caret-position="1323">
+              <caret line="50" column="79" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="79" />
               <folding>
                 <element signature="e#51#66#0" expanded="true" />
                 <marker date="1586880082408" expanded="true" signature="9045:9046" ph="..." />
@@ -122,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="269" column="4" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="4" />
+            <state relative-caret-position="6804">
+              <caret line="253" selection-start-line="253" selection-end-line="253" />
               <folding>
                 <marker date="1586944980507" expanded="true" signature="9033:9522" ph="..." />
               </folding>
@@ -131,11 +120,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mitmproxy_demo/demo1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mitmproxy_demo/old_watchman.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99927">
+              <caret line="3701" selection-start-line="3701" selection-end-line="3701" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mitmproxy_demo/old_core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101385">
+              <caret line="3755" column="112" selection-start-line="3755" selection-start-column="112" selection-end-line="3755" selection-end-column="112" />
             </state>
           </provider>
         </entry>
@@ -151,14 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>global_s</find>
-      <find>线--------------------</find>
-      <find>WD</find>
-      <find>get_params_by_api</find>
-      <find>golable_cookie</find>
-      <find>time.sleep</find>
-      <find>proxies</find>
-      <find>exception proxies</find>
       <find>failure proxies</find>
       <find>try count</find>
       <find>failure proxies:</find>
@@ -180,7 +179,15 @@
       <find>NpxMbNBiFDJmOQDZVIMn4Zs</find>
       <find>urlencode</find>
       <find>token</find>
+      <find>this.$store.state.token</find>
+      <find>onVerifyCaptcha</find>
+      <find>u(f(this.$store.state.token,</find>
+      <find>this.onVerifyCaptcha(data)</find>
       <find>8fe083538b814a1bb1cd5d9a034d92c5</find>
+      <find>my_trance.push([e.clientX - n, e.clientY - i, l_now_deal]);</find>
+      <find>get_proxy</find>
+      <find>con</find>
+      <find>addPoint: function(e) {</find>
     </findStrings>
     <dirStrings>
       <dir>C:\sx\pro_git\github\geetest-crack_bak\geetest_crack</dir>
@@ -191,47 +198,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/param.py" />
-        <option value="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/utils/fetch.py" />
-        <option value="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" />
-        <option value="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" />
-        <option value="$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest.py" />
-        <option value="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" />
-        <option value="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py" />
-        <option value="$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_run.py" />
-        <option value="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run_geetest.py" />
-        <option value="$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_test_api.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_test_api_success.py" />
-        <option value="$PROJECT_DIR$/geetest_slide2_jilin/slide2_geetest_jilin_success_test.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/img_locate.py" />
-        <option value="$PROJECT_DIR$/geetest_slide2_jilin/trance_moves.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/util_trance.py" />
-        <option value="$PROJECT_DIR$/geetest_slide2_jilin/slide_search_by_validate.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/test_cods_geetest.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_cods_get_gt.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/test.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/cods_test_geetest.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/geetest_request.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v2.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py" />
-        <option value="$PROJECT_DIR$/mitmproxy_demo/demo1.py" />
-        <option value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success_bilibili.py" />
-        <option value="$PROJECT_DIR$/yidun_click/yidun_click.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-27" />
-    <option name="y" value="303" />
-    <option name="width" value="1787" />
-    <option name="height" value="933" />
+    <option name="x" value="-8" />
+    <option name="y" value="93" />
+    <option name="width" value="1854" />
+    <option name="height" value="955" />
   </component>
+  <component name="ProjectId" id="1bAdhexppEXYZkSfMUYGd7fA8uD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -263,11 +236,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yidun_jscrack" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sx\pro_git\github\js_crack\mitmproxy_demo" />
+      <recent name="C:\sx\pro_git\github\js_crack\yidun_click" />
       <recent name="C:\sx\pro_git\github\js_crack\geetest_slide3_demo" />
       <recent name="C:\sx\pro_git\github\git_geetest\geetest\bibibi" />
     </key>
@@ -284,28 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yidun_click">
-    <configuration name="slide3_api_success" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js_crack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geetest_slide3_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.slide3_api_test_cods_v3">
     <configuration name="slide3_api_success_bilibili" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js_crack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,27 +274,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\sx\pro_git\github\js_crack\geetest_slide3_demo\slide3_api_bilibili_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="slide3_api_test_cods_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js_crack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geetest_slide3_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,9 +310,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Dell\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yidun_click" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun_click/yidun_click.py" />
@@ -390,22 +324,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yidun_click_jzsc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="js_crack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yidun_click" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun_click/yidun_click_jzsc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yidun_get_token" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="js_crack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yidun_click" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun_click/yidun_get_token.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.slide3_api_test_cods_v2" />
       <item itemvalue="Python.slide3_api_test_cods_v3" />
-      <item itemvalue="Python.slide3_api_success" />
       <item itemvalue="Python.slide3_api_success_bilibili" />
       <item itemvalue="Python.yidun_click" />
+      <item itemvalue="Python.yidun_get_token" />
+      <item itemvalue="Python.yidun_click_jzsc" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.yidun_click" />
-        <item itemvalue="Python.slide3_api_success_bilibili" />
-        <item itemvalue="Python.slide3_api_test_cods_v3" />
-        <item itemvalue="Python.slide3_api_success" />
-        <item itemvalue="Python.slide3_api_test_cods_v2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -417,6 +384,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583825054066</updated>
+      <workItem from="1588078954744" duration="171000" />
     </task>
     <servers />
   </component>
@@ -430,14 +398,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2170706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14910433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40282303" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27470142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3756786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,239 +439,29 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>138</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>168</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>140</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>161</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>127</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>146</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>157</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest.py</url>
-          <line>177</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/run_geetest.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest.py</url>
-          <line>162</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py</url>
-          <line>191</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py</url>
-          <line>194</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py</url>
-          <line>185</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py</url>
-          <line>113</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>209</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>239</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>316</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>272</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>276</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>283</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>296</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>261</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>171</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>257</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/cods_test_geetest.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/cods_test_geetest.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py</url>
-          <line>266</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_bilibili_test.py</url>
-          <line>279</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_bilibili_test.py</url>
-          <line>297</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/yidun_click/yidun_click.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -801,330 +560,55 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../geetest-crack/images/login-demo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack/images/xx-login-demo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest/README.md" />
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/utils/fetch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack/images/get_a.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/param.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73550">
-          <caret line="2942" column="12" selection-start-line="2942" selection-start-column="12" selection-end-line="2942" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest/geetest.py" />
-    <entry file="file://$PROJECT_DIR$/../geetest/w.py" />
-    <entry file="file://$PROJECT_DIR$/../teambition-api/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/result.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/encrypt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="84" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/run_geetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="354" selection-start-line="354" selection-end-line="354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="177" column="69" selection-start-line="173" selection-start-column="4" selection-end-line="177" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="181" column="28" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/建筑市场.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="515" column="53" lean-forward="true" selection-start-line="515" selection-start-column="53" selection-end-line="515" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/img_locate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/img_locate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/Captcha/fullbg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/util_trance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="121" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/trace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/trace_slide.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="915" lean-forward="true" selection-start-line="30" selection-end-line="30" selection-end-column="915" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/Captcha/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/trance_moves.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/trace_slide.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/slide2_geetest_jilin_success.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/geetest_slideV2_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="60" column="48" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="60" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/test_cods_geetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6291">
-          <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
-          <folding>
-            <marker date="1586759637521" expanded="true" signature="905:914" ph="..." />
-            <marker date="1586759637521" expanded="true" signature="2870:5659" ph="..." />
-            <marker date="1586759637521" expanded="true" signature="5716:12776" ph="..." />
-            <marker date="1586759637521" expanded="true" signature="11313:12776" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/cods_test_geetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/slide2_geetest_jilin_test_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6183">
-          <caret line="235" selection-start-line="235" selection-end-line="252" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/slide2_geetest_jilin_success_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4914">
-          <caret line="187" column="25" selection-start-line="184" selection-start-column="8" selection-end-line="187" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_jilin/slide_search_by_validate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_bilibili_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="306" column="37" lean-forward="true" selection-start-line="306" selection-start-column="37" selection-end-line="306" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/geetest_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="60" selection-start-line="60" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="e#50#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_cods_get_gt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
-          <folding>
-            <element signature="e#50#68#0" expanded="true" />
-            <marker date="1586852369420" expanded="true" signature="1056:1057" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mitmproxy_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="75" selection-end-column="51" />
+        <state relative-caret-position="5778">
+          <caret line="215" column="27" selection-start-line="215" selection-start-column="27" selection-end-line="215" selection-end-column="27" />
           <folding>
             <element signature="e#51#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_click/yidun_click.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="269" column="4" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="4" />
+        <state relative-caret-position="1404">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
-            <marker date="1586944980507" expanded="true" signature="9033:9522" ph="..." />
+            <element signature="e#50#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_click/yidun_click_jzsc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_click/yidun_get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="25" column="173" selection-start-line="25" selection-start-column="173" selection-end-line="25" selection-end-column="173" />
+          <folding>
+            <element signature="e#51#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="79" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="79" />
+        <state relative-caret-position="1323">
+          <caret line="50" column="79" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="79" />
           <folding>
             <element signature="e#51#66#0" expanded="true" />
             <marker date="1586880082408" expanded="true" signature="9045:9046" ph="..." />
@@ -1133,20 +617,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="847" column="4" selection-start-line="847" selection-start-column="4" selection-end-line="847" selection-end-column="4" />
+        <state relative-caret-position="6804">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+          <folding>
+            <marker date="1586944980507" expanded="true" signature="9033:9522" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yidun_click/yidun_click.py">
+    <entry file="file://$PROJECT_DIR$/mitmproxy_demo/old_watchman.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-          <folding>
-            <element signature="e#50#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="99927">
+          <caret line="3701" selection-start-line="3701" selection-end-line="3701" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_demo/old_core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101385">
+          <caret line="3755" column="112" selection-start-line="3755" selection-start-column="112" selection-end-line="3755" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>

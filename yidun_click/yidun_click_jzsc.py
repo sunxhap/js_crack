@@ -10,17 +10,18 @@ requests.packages.urllib3.disable_warnings()
 from urllib.parse import urlencode
 from urllib.parse import quote
 
-uid = "07e2387ab53a4d6f930b8d9a9be71bdf"
-cookie = "_gid=GA.1885717334.38714786389220; _ga=GA.1.2f6504f7efba9.9721d70adefba64ad096"
-token = "3902ec26e92a4af0b03414c7b8b180ec"
+uid = "c2e691560a1b4e76b71fd37eed97f46a"                # 建筑市场
 
-data = """{"d":"","m":"d8SNKGykSAZjob2l8k8A4p33","p":"rdEhb\\4dyd6wtIUXSP5qWhmfJiiOXWWlNgsQInd/mqHVMm/aBKMLsO+81HI5dK7ZKreYtzBwIy7/WUZkqZqWip33","ext":"M9RETEVv1Zq4oyfFmYFAl/wD0MI3"}"""
+cookie = "_gid=GA.7745714950.04605091589938; _ga=GA.1.2c3c12432601c.9ecba3e664ca645696dc"
+token = "e5a054973aa144f282bbd5999d8e3ead"
+
+data = """{"d":"","m":"XsJ6UFX2s0h\\zhcOuwSAQp33","p":"UtRUf\\F8ooHhv551GUviiSk4QQqeFwbk\\Rcavi7P8O8ifWzpUb8eCQP5GQzV7dQPF9ZyTJYG4Qx\\Paui9B5UTc33","ext":"us\\bCGtiRhan0F9KEx7wPPGTwfS3"}"""
 data = data.replace('\\', '\\\\')  # 单变双
 
-cb = "TuWNJMn+M2wJwXTbLXAUzOj8yYyfHJIwFPa8Ofc+WZnOTxfD/lm9Gl5SkzdfNS6w"   # 注意转义 , 注意每次替换,
+cb = "SAv/cueMK8okR88TsBVSKStn\\KfZG7IJcU\\Pbhv6lV6RY5XZT4ykgswhS\\Z+7YSG"   # 注意转义 , 注意每次替换,
 print('cb', cb)
 
-acToken = "9ca17ae2e6ffcda170e2e6ee99ce5c8c91aad1e7528e9e8ab7d55f828e9ebbf55bf7ea8487d03dbc9b8fb0c42af0feaec3b92a82b0a9d0b372b2e9aea2b35e929a9fa3c55a8baf9f91b648a5f08cd9fc5fb5beee9e"
+acToken = "9ca17ae2e6ffcda170e2e6ee82e945abe9ac8cb44281b08eb2d14a879f9abab54bf7f1ab99f053a5bab78cfc2af0feaec3b92abc9289b1d55e8feba485d95e938a8ea2c85b8aab9fdaaa6ba9af82aff56dba8fee9e"
 
 # 可能提示重试过多
 
@@ -51,7 +52,7 @@ params = {
      "cb": cb,
      "extraData": "",
      "runEnv": "10",
-     "referer": "https://dun.163.com/trial/icon-click",
+     "referer": "http://jzsc.mohurd.gov.cn/data/company",
      "callback": "__JSONP_o65berq_2"
     }
 # print(params)
