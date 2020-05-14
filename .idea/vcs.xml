@@ -2,9 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SliderCracker-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../botgate-RuiShu-Spider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../geetest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../geetest-crack_bak" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../git_geetest/geetest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pachong/Crack-JS" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../teambition-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wenshu_utils" vcs="Git" />
   </component>
 </project>

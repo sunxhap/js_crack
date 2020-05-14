@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../pachong/Crack-JS/.idea/Crack-JS.iml" filepath="$PROJECT_DIR$/../pachong/Crack-JS/.idea/Crack-JS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SliderCracker-1/.idea/SliderCracker-1.iml" filepath="$PROJECT_DIR$/../SliderCracker-1/.idea/SliderCracker-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../git_geetest/geetest/bibibi/.idea/bibibi.iml" filepath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/.idea/bibibi.iml" />
       <module fileurl="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/.idea/geetest_crack.iml" filepath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/.idea/geetest_crack.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/js_crack.iml" filepath="$PROJECT_DIR$/.idea/js_crack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruishu/.idea/ruishu.iml" filepath="$PROJECT_DIR$/ruishu/.idea/ruishu.iml" />
       <module fileurl="file://$PROJECT_DIR$/../teambition-api/.idea/teambition-api.iml" filepath="$PROJECT_DIR$/../teambition-api/.idea/teambition-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SliderCracker-1/yidun/.idea/yidun.iml" filepath="$PROJECT_DIR$/../SliderCracker-1/yidun/.idea/yidun.iml" />
     </modules>
   </component>
 </project>

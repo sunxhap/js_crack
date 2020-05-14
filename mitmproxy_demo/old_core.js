@@ -3546,6 +3546,7 @@ window.NECaptcha = function(e) {
                     var n = a.sample(this.traceData, u)
                         , i = this.$store.state.token
                         , r = p(y(i, parseInt(this.$jigsaw.style.left, 10) / this.width * 100 + ""));
+                    debugger;
                     this.onVerifyCaptcha({
                         data: JSON.stringify({
                             d: p(n.join(":")),
