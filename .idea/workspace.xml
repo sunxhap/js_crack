@@ -5,21 +5,6 @@
       <change afterPath="$PROJECT_DIR$/../SliderCracker-1/yidun/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run_geetest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openlaw/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openlaw/openlaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openlaw/openlaw_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/RequestVerificationToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/cipher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/content_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/pageld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_click/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_slide/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_slide/chaojiying.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_slide/yidun.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_slide/yidun_get_conf_slide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_slide/yidun_slide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun_jscrack/.idea/yidun_jscrack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js" afterDir="false" />
@@ -30,32 +15,6 @@
       <change beforePath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/js_crack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js_crack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruishu/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruishu/.idea/ruishu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/.idea/ruishu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruishu/datasearch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruishu/h2ed9.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruishu/wenshu190902/cipher.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu190902/cipher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruishu/wenshu190902/content_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu190902/content_list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/chaojiying.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/chaojiying.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/image/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/image/yi2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/image/yi2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/image/yi3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/image/yi3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/image/yidun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/image/yidun.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun.png" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun_click.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_click_jzsc.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun_click_jzsc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_get_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/chaojiying.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/chaojiying.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/encrypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/encrypt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/geetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/geetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/generate_fp.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/generate_fp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/get_trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/get_trace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/img_locate.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/img_locate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_click/yidun_test/yd_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_test/yd_slider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,17 +27,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="14" />
-          <entry key="py" value="15" />
+          <entry key="js" value="15" />
+          <entry key="py" value="16" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -110,12 +69,26 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="36">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/encrypt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/generate_fp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-810" />
           </provider>
         </entry>
       </file>
@@ -123,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/yidun/yidun_test/encrypt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -151,15 +124,6 @@
         <entry file="file://$PROJECT_DIR$/yidun/yidun_slide/yidun_slide.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-572" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geetest_slide2_tianyancha/slide2_success.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -224,7 +188,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SliderCracker-1" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -491,21 +455,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2028451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2028451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7897787" visible="true" weight="0.39739415" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7897787" visible="true" weight="0.35939196" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3061889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21022129" side_tool="true" visible="true" weight="0.39739415" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21022129" side_tool="true" visible="true" weight="0.35939196" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -705,11 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/generate_fp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../botgate-RuiShu-Spider/spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -884,15 +842,25 @@
     <entry file="file://$PROJECT_DIR$/yidun/yidun_test/encrypt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        <state relative-caret-position="36">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/encrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/generate_fp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
       </provider>
     </entry>
   </component>
