@@ -7,5 +7,6 @@
     <orderEntry type="module" module-name="geetest_slide3_demo" />
     <orderEntry type="module" module-name="mitmproxy_demo" />
     <orderEntry type="module" module-name="nodejs_demo" />
+    <orderEntry type="module" module-name="yidun_jscrack" />
   </component>
 </module>

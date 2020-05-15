@@ -4,12 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="geetest_crack" />
-    <orderEntry type="module" module-name="teambition-api" />
     <orderEntry type="module" module-name="bibibi" />
     <orderEntry type="module" module-name="yidun" />
-    <orderEntry type="module" module-name="SliderCracker-1" />
     <orderEntry type="module" module-name="ruishu" />
+    <orderEntry type="module" module-name="Crack-JS" />
     <orderEntry type="module" module-name="Crack-JS" />
   </component>
 </module>

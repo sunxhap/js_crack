@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../mitmproxy_demo/.idea/mitmproxy_demo.iml" filepath="$PROJECT_DIR$/../mitmproxy_demo/.idea/mitmproxy_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../nodejs_demo/.idea/nodejs_demo.iml" filepath="$PROJECT_DIR$/../../nodejs_demo/.idea/nodejs_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ruishu.iml" filepath="$PROJECT_DIR$/.idea/ruishu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../yidun_jscrack/.idea/yidun_jscrack.iml" filepath="$PROJECT_DIR$/../yidun_jscrack/.idea/yidun_jscrack.iml" />
     </modules>
   </component>
 </project>

@@ -74,7 +74,8 @@ def get_token(cookie_gid):
                }
 
     # fp = "3aeC2LWuwn+QKPRhVxV2gfN9\znu7aujA8osNV1HnzVmALChGhqlRhHmY7Hx9qVyZPwyXetxEua\c/yUadJwX/hH31l58OEbbhpUdK55WBAYxIy6uow0\\niOnSpoxTj\\bH\SBy4h3xCVrZbMRj+Jm7EVn9/TktbKhYQGxIHUGG8wbEhD:1588940447749"
-    fp = "ASPcaAM6Xz8WR0vAPvLV\\x8rc7D9YKlkvLTOYD0cDMIVozEsvlEG4rMdNe7Xcv/Bx9ToT+5Mu/xkHSqQJn7pv/DiHSP9f+/hrpgPcz51K3T/w/WXoZylnD4P3EP5eUkeJ/p2Vc1M8kkvyYJr\\CZVPbY5ARWy+H\\6NVHZ5LTs2ldaNmVS:1588945515658"
+    # fp = "ASPcaAM6Xz8WR0vAPvLV\\x8rc7D9YKlkvLTOYD0cDMIVozEsvlEG4rMdNe7Xcv/Bx9ToT+5Mu/xkHSqQJn7pv/DiHSP9f+/hrpgPcz51K3T/w/WXoZylnD4P3EP5eUkeJ/p2Vc1M8kkvyYJr\\CZVPbY5ARWy+H\\6NVHZ5LTs2ldaNmVS:1588945515658"
+    fp = ''
     # cb = "Zx5wsFMvkHr8tKoWN9GvPime/HfsHAmuY9WddJKPbd52K9Od74gbTcBvS1\\TbqsT"  # 注意转义 , 注意每次替换,
     cb = ctx.call('l_get_cb')
     print('cb', cb)
@@ -82,7 +83,7 @@ def get_token(cookie_gid):
         "id": uid,
         "fp": fp,
         'https': 'true',
-        "type": "7",
+        "type": "7",        # 点选
         "version": "2.13.6",
         "dpr": "3",  # pc    1  mb 3
         "dev": "2",  # dev	1  mb 2
@@ -199,6 +200,7 @@ print('cookie_h', cookie_h)
 print('res_check_id token_m', token_m)
 print('image', get_token_data[2])
 print('-' * 50)
+
 
 # step3
 chaojiying_data = downloader_image_identify(get_token_data[2])          # 主要打点可能不准
