@@ -1,3 +1,4 @@
+
 var windows = this;
 var navigator = {};
 // var r = {};
@@ -455,52 +456,12 @@ function l_get_cb() {
 }
 
 
-function get_ext_data(token_m, ) {
-    var n_m = [];
-    var h_m = 50;
+function get_ext_data() {
     var m_m = get_u(get_l(n_m, h_m).join(":"));         //  get_u no
     // console.log('------------------------------');
 
-    var t_m = ["vAv60ipg1eaU","\\pe+/Ajq1pjXrc33","vAuO0iNxgpzir4j3"];
-
     var p_m = get_u(t_m.join(":"));
     // console.log('------------------------------');
-    var ext_m = get_u(f_n(token_m, 3 + "," + n_m.length));
-
-    console.log('m_m:', m_m);
-    console.log('p_m:', p_m);
-    console.log('ext_m:', ext_m);
-
-    var data = JSON.stringify({
-        d: "",
-        m: m_m,
-        p: p_m,
-        ext: ext_m
-    });
-    return data
-}
-
-
-function get_point_xy(token_m, point_xy) {
-    var tm_point = [];
-    for(var index = 0; index < point_xy.length; index++){
-        var coord = get_point(point_xy[index][0], point_xy[index][1], point_xy[index][2], token_m);
-        tm_point.push(coord);
-    }
-    console.log(tm_point);
-    return tm_point
-}
-
-
-function get_ext_data_v4(token_m, point_xy, n_m) {
-//    var n_m = [];
-    var h_m = 50;
-    var m_m = get_u(get_l(n_m, h_m).join(":"));         //  get_u no
-
-    // var point_xy = [[108.83331298828125, 63], [166.1666259765625, 77], [261.5, 74.3333740234375]];
-    var t_m = get_point_xy(token_m, point_xy);
-
-    var p_m = get_u(t_m.join(":"));
     var ext_m = get_u(f_n(token_m, 3 + "," + n_m.length));
 
     console.log('m_m:', m_m);
@@ -532,30 +493,76 @@ function randomNum(minNum, maxNum) {
     }
 }
 
-// 取 总轨迹（重要）， 取点坐标
-// 轨迹
-// 从打第一个点， 和第二个点开始往后取坐标点
 
-function get_point(t, n, time_deal, token_m) {
-    var coord = f_n(token_m, [Math.round(t), Math.round(n), time_deal] + "");
-    return coord
+function click_encrypt(token, trace, position) {
+    var new_position = [];
+    var new_trace = process_trace(token, trace),
+        n_ = b_sample(new_trace, 50);
+    var start_time = RandomNum(2000, 5000);
+    for (var i = 0, j = position.length; i < j; i++) {
+        var z = start_time + RandomNum(1000, 2000);
+        var k = t.xor_encode(token, [position[i][0], position[i][1], z] + "");
+        new_position.push(k)
+    }
+    return {
+        d: "",
+        m: t.eypt(n_.join(':')),
+        p: t.eypt(new_position.join(':')),
+        ext: t.eypt(t.xor_encode(token, position.length + "," + n_.length))
+    }
 }
 
 
-// clientX 鼠标相对屏幕左边 , clientY 鼠标相对上方 ----点击位置距离当前body可视区域的x，y坐标,  l_now_deal,
-// 整体 坐标,  注意图片  鼠标滑入滑出的坐标轨迹
-// 轨迹点  大概 6-9 毫秒一个，  从点击第一个点开始计时 ，
-// 注意点击第二个点 和之前的轨迹时间跨度 600 （400-700）左右， 前后点都如此，
-// 第二个点和第三个点 在轨迹内, 第一个点坐标不在内， 作为开始
-// 所有轨迹点 按比例压缩到 50个点
+function get_n_m_slide_v3(n_m_slide) {
+    var n_m_list = [];
+    for (var i = 0; i < n_m_slide.length; i++) {
+        var r = f_n(token_m, [Math.round(n_m_slide[i][0]), Math.round(n_m_slide[i][1]), n_m_slide[i][2]] + "");
+        n_m_list.push(r);
+    }
+    return n_m_list
+}
 
 
-// var token = 'c186e762b9644dd9a85ba983c44c9296';
-// // var point_xy = [[108.83331298828125, 63], [166.1666259765625, 77], [261.5, 74.3333740234375]];
-// point_xy = [[142.25360107421875, 40.39129638671875, 0], [98.19561767578125, 63.5797119140625, 582], [116.746337890625, 100.68115234375, 1023]];
-// console.log(get_ext_data_v4(token, point_xy));
-//
-// param_l_get_cb = l_get_cb();
-// console.log('cb', param_l_get_cb);
+function compress_coordinate(n, t){     // 压缩
+    var n = 67;
+    var t = 44;
+    for (var i = [], r = 0, o = 0; o < n; o++) {
+        if (o >= r * (n - 1) / (t - 1)) {
+            // console.log('o', o);
+            i.push(o);
+            r += 1;
+        }
+    }
+    return i;
+}
 
 
+function get_n_m_slide(p1, p2, p3, time_deal2, time_deal3) {
+    var step1 = randomNum(400, 500);
+    var step2 = randomNum(400, 500);
+    var step1_xy = get_slide_xy(p1, p2, step1, time_deal2 - step2);
+    return
+}
+
+
+function get_trace_by_position(position){
+    // clientX 鼠标相对屏幕左边 , clientY 鼠标相对上方 ----点击位置距离当前body可视区域的x，y坐标,  l_now_deal,
+    // 整体 坐标,  注意图片  鼠标滑入滑出的坐标轨迹
+    // 轨迹点  大概 6-9 毫秒一个，  从点击第一个点开始计时 ，
+    // 注意点击第二个点 和之前的轨迹时间跨度 600 （400-700）左右， 前后点都如此，
+    // 第二个点和第三个点 在轨迹内, 第一个点坐标不在内， 作为开始
+
+    // 所有轨迹点 按比例压缩到 50个点
+    // 第一档50
+    step_time = 30
+    // 第二档50
+}
+
+
+var token_m = 'e5a054973aa144f282bbd5999d8e3ead';
+var trace = [[68.5, 116, 4336], [143.5, 154, 249120], [141.5, 141, 249128], [137.5, 125, 249135], [134.5, 107, 249143], [131.5, 91, 249151], [126.5, 72, 249160], [122.5, 59, 249168], [119.5, 45, 249176], [116.5, 32, 249183], [114.5, 18, 249192], [114.5, 5, 249200], [204.5, 40, 507], [199.5, 42, 514], [198.5, 43, 520], [196.5, 44, 531], [195.5, 44, 539], [195.5, 45, 547], [195.5, 46, 577], [194.5, 46, 609], [194.5, 47, 624], [193.5, 48, 649], [192.5, 49, 665], [192.5, 50, 672], [191.5, 50, 689], [191.5, 51, 696], [190.5, 51, 721], [190.5, 52, 731], [188.5, 53, 745], [188.5, 54, 753], [187.5, 54, 761], [187.5, 55, 867], [186.5, 55, 890], [186.5, 56, 915], [185.5, 56, 924], [185.5, 57, 929], [184.5, 58, 938], [183.5, 58, 952], [183.5, 59, 961], [182.5, 59, 970], [181.5, 60, 985], [181.5, 61, 1009], [181.5, 62, 1017], [180.5, 62, 1033], [180.5, 63, 1048], [180.5, 64, 1090], [180.5, 65, 1193], [180.5, 66, 1298], [178.5, 66, 2353], [171.5, 67, 2361], [165.5, 68, 2369], [159.5, 69, 2376], [155.5, 72, 2385], [149.5, 75, 2392], [144.5, 78, 2401], [141.5, 80, 2408], [139.5, 82, 2416], [139.5, 83, 2433], [138.5, 83, 2441], [138.5, 84, 2473], [138.5, 85, 2489], [138.5, 86, 2497], [137.5, 87, 2505], [137.5, 89, 2520], [137.5, 90, 2537], [137.5, 91, 2545], [137.5, 92, 2552], [137.5, 93, 2561], [138.5, 94, 2568], [138.5, 95, 2577], [138.5, 96, 2584], [139.5, 96, 2593], [139.5, 97, 2600], [140.5, 98, 2625], [141.5, 98, 2721], [141.5, 99, 2728], [135.5, 94, 3833], [129.5, 87, 3841], [125.5, 82, 3849], [122.5, 81, 3856], [121.5, 80, 3865], [120.5, 79, 3872], [117.5, 77, 3880], [116.5, 76, 3888], [115.5, 75, 3897], [115.5, 74, 3904], [114.5, 74, 3913], [113.5, 74, 3948], [113.5, 73, 3961], [112.5, 72, 3968], [111.5, 70, 3977], [109.5, 67, 3985], [107.5, 66, 3992], [105.5, 64, 4000], [104.5, 62, 4009], [103.5, 61, 4025], [102.5, 61, 4041], [102.5, 60, 4049], [101.5, 59, 4072], [101.5, 58, 4090], [99.5, 58, 4097], [99.5, 57, 4105], [98.5, 56, 4113], [97.5, 55, 4122], [96.5, 55, 4128], [95.5, 54, 4138], [95.5, 53, 4169], [94.5, 53, 4185], [93.5, 53, 4217], [93.5, 52, 4224], [92.5, 52, 4241], [91.5, 51, 4256], [90.5, 51, 4273], [89.5, 50, 4288], [88.5, 50, 4313]];
+var position = [[254.0127, 59.336299999999994, 0], [138.0069, 76.67049999999999, 1500], [204.0102, 76.67049999999999, 3000]];
+
+var trace = get_trace_by_position(position);
+
+console.log(get_n_m_slide_v3(trace));

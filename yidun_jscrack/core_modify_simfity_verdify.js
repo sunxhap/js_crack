@@ -492,8 +492,7 @@ function get_point_xy(token_m, point_xy) {
 }
 
 
-function get_ext_data_v4(token_m, point_xy) {
-    var n_m = [];
+function get_ext_data_v4(token_m, point_xy, n_m) {
     var h_m = 50;
     var m_m = get_u(get_l(n_m, h_m).join(":"));         //  get_u no
 
@@ -553,7 +552,7 @@ function get_point(t, n, time_deal, token_m) {
 var token = 'da0c82893c034dcda945b8f3d9bc14c9';
 // var point_xy = [[108.83331298828125, 63], [166.1666259765625, 77], [261.5, 74.3333740234375]];
 point_xy = [[222.0111, 70.6702, 0], [157.3412, 41.3354, 1500], [82.0041, 79.3373, 3000]];
-console.log(get_ext_data_v4(token, point_xy));
+console.log(get_ext_data_v4(token, point_xy, []));
 //
 // param_l_get_cb = l_get_cb();
 // console.log('cb', param_l_get_cb);

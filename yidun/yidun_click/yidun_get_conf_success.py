@@ -5,10 +5,14 @@
 import requests
 import os
 import sys
+import execjs
 
 requests.packages.urllib3.disable_warnings()
 
 from urllib.parse import urlencode
+
+from get_trace import get_trace_by_position, get_trace_by_position_v2
+
 from urllib.parse import quote
 import re
 import json
@@ -24,17 +28,6 @@ from chaojiying import Chaojiying_Client
 
 uid = "07e2387ab53a4d6f930b8d9a9be71bdf"
 
-User_Agent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
-
-
-headers = {
-    'Host': 'c.dun.163yun.com',
-    'User-Agent': User_Agent,
-    'Referer': 'https://dun.163.com/trial/icon-click'
-}
-
-import execjs
-
 chaojiying = Chaojiying_Client('chaojiying998', 'WENanzhe123', '2004')  # 用户中心>>软件ID 生成一个替换 96001
 
 with open('yidun.js', 'rb') as f:
@@ -49,9 +42,9 @@ def get_conf():
         "id": uid,
         "ipv6": "false",
         "runEnv": "10",
-        "referer": "https://dun.163.com/trial/icon-click",
+        "referer": "https://dun.163.com/trial/icon-click",  # todo mobile
         "type": "7",
-        "callback": "__JSONP_kx8kra0_7",
+        "callback": "__JSONP_g8tl2jj_0",
     }
 
     send_url = get_conf_url + urlencode(params)
@@ -66,7 +59,21 @@ def get_conf():
     return cookie
 
 
-def get_token(cookie_gid):
+def get_token(cookie_gid, s_type):
+    """
+            "dpr": "3",  # pc   1  mb 3
+            "dev": "2",  # dev	1  mb 2
+    :param cookie_gid:
+    :param s_type:
+    :return:
+    """
+    if s_type == 'mobile':
+        dpr = '3'
+        dev = '2'
+    else:
+        dpr = '1'
+        dev = '1'
+
     headers = {'Accept-Language': 'zh-CN,zh;q=0.9', 'Accept-Encoding': 'gzip, deflate, br',
                'Sec-Fetch-Site': 'cross-site', 'Accept': '*/*',
                'User-Agent': User_Agent,
@@ -83,10 +90,10 @@ def get_token(cookie_gid):
         "id": uid,
         "fp": fp,
         'https': 'true',
-        "type": "7",        # 点选
+        "type": "7",  # 点选
         "version": "2.13.6",
-        "dpr": "3",  # pc    1  mb 3
-        "dev": "2",  # dev	1  mb 2
+        "dpr": dpr,  # pc   1  mb 3
+        "dev": dev,  # dev	1  mb 2
         "cb": cb,
         "ipv6": "false",
         "runEnv": "10",
@@ -94,7 +101,7 @@ def get_token(cookie_gid):
         "scene": "",
         "width": "320",
         "token": "",
-        "callback": "__JSONP_kx8kra0_9",
+        "callback": "__JSONP_z2to3uu_0",
         'referer': 'https://dun.163.com/trial/icon-click'
     }
 
@@ -117,14 +124,9 @@ def get_token(cookie_gid):
 
 def downloader_image_identify(image):
     headers = {
-        # 'Connection': 'keep-alive',
-        # 'Pragma': 'no-cache',
-        # 'Cache-Control': 'no-cache',
         'User-Agent': User_Agent,
         'Sec-Fetch-Dest': 'image',
         'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
-        # 'Sec-Fetch-Site': 'cross-site',
-        # 'Sec-Fetch-Mode': 'no-cors',
         'Referer': 'https://dun.163.com/trial/icon-click',
         'Accept-Language': 'zh-CN,zh;q=0.9',
     }
@@ -169,7 +171,7 @@ def res_check_id(token, cookie, data):
         "extraData": "",
         "runEnv": "10",
         "referer": "https://dun.163.com/trial/icon-click",
-        "callback": "__JSONP_o65berq_2"
+        "callback": "__JSONP_2crht19_1"
     }
     # print(params)
     get_type_url = "https://c.dun.163yun.com/api/v2/check?"
@@ -181,6 +183,22 @@ def res_check_id(token, cookie, data):
     return content
 
 
+# mobile  不需要轨迹  pc 需要
+s_type = 'mobile'  # mobile, pc
+
+if s_type == 'mobile':
+    User_Agent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+    Referer = "https://dun.163.com/trial/icon-click?force=true"
+else:
+    User_Agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36'
+    Referer = "https://dun.163.com/trial/icon-click"
+
+headers = {
+    'Host': 'c.dun.163yun.com',
+    'User-Agent': User_Agent,
+    'Referer': Referer
+}
+
 # step1
 cookie_gid = get_conf()
 cookie_gid = "{}={}".format('_gid', cookie_gid['_gid'])  # cookie  _gid
@@ -190,7 +208,7 @@ print('-' * 50)
 
 # step2
 # cookie_gid = '_gid=GA.6055818893.95571934089869'
-get_token_data = get_token(cookie_gid)  # cookie  _ga
+get_token_data = get_token(cookie_gid, s_type)  # cookie  _ga
 # print(get_token_data)
 
 token_m = get_token_data[0]
@@ -201,37 +219,49 @@ print('res_check_id token_m', token_m)
 print('image', get_token_data[2])
 print('-' * 50)
 
-
 # step3
-chaojiying_data = downloader_image_identify(get_token_data[2])          # 主要打点可能不准
+chaojiying_data = downloader_image_identify(get_token_data[2])  # 主要打点可能不准
 print(chaojiying_data)
 
 # step4   js get data
 pic_str = chaojiying_data['pic_str']
 point_xy = list()
 time_deal = 0
+# for pic in pic_str.split('|'):
+#     x = 0.6667 * int(pic.split(',')[0])             # 图片大小缩放       320/480
+#     y = 0.6667 * int(pic.split(',')[1])
+#     point_xy.append([x, y, time_deal])
+#     time_deal += 1500
+# print(point_xy)
+
 for pic in pic_str.split('|'):
-    x = 0.6667 * int(pic.split(',')[0])             # 图片大小缩放       320/480
+    x = 0.6667 * int(pic.split(',')[0])  # 图片大小缩放       320/480
     y = 0.6667 * int(pic.split(',')[1])
     point_xy.append([x, y, time_deal])
-    time_deal += 1500
+    time_deal += 1600
 print(point_xy)
 
 # token_m = '1e99a7c8ceae493e9d7f6df741c56de6'
 # point_xy = [['123', '49'], ['56', '91'], ['225', '79']]
-data = ctx.call('get_ext_data_v4', token_m, point_xy)
+
+# n_m, point_xy = get_trace_by_position_v2(point_xy)     # 轨迹
+# print('n_m', n_m)
+# print('point_xy', point_xy)
+
+data = ctx.call('get_ext_data_v4', token_m, point_xy, [])  # n_m 轨迹
+# b'__JSONP_o65berq_2({"error":100,"msg":"param check error"});' 可能轨迹问题
 print(data)
 
 # step4
-
-# true
-# token_m = '92f8228710a54c7e82d13e05223c9326'
-# cookie_h = '_ga=GA.1.20852e4612c48.ed5765f1ad2a881242a2; _gid=GA.6105816338.62877646589900'
-# data = """{"d":"","m":"KecPsA4GPgblIXEpKgsPnc33","p":"jTMloZYP\\0gYPTikDKkbraNeZfvZ2tE/0JiL2o/kvnRm0XftPA4M21Bhp0U2Q\\JikA9IXii/OqFm5XDgbt\\yb2WI1oi3","ext":"kBprz0Gnd+aKWaZmPxNgFdu1K2r3"}"""
-
 # token_m = 'da0c82893c034dcda945b8f3d9bc14c9'
 # cookie_h = '_gid=GA.7775810105.45432743689117;_ga=GA.1.273fd9ee85fa2.471e5de2a38f4d2e7587'
 # data = """{"d":"","m":"2H\\ia7YMiAiXrHqi/c6cHp33","p":"8h+VFLF986vvZZ671gLYz/emqI\\+pfF\\NPeFOzVYeJfER+h7lVak51+f/sE8G28WEjrZzr5D\\o1EwCTJM9kSoi33","ext":"wu8gUj6Bn+jk9cb4TEf\\Fycf1Yc3"}"""
 
-get_token_data = res_check_id(token_m, cookie_h, data)          # cookie  _ga
+get_token_data = res_check_id(token_m, cookie_h, data)  # cookie  _ga
 print(get_token_data)
+
+
+"""
+通过率较低  
+    可能和 fp有关 后续待看    
+"""
