@@ -7,8 +7,8 @@ function get_random(size){
     return str;
 }
 
-var token = get_random(24)
-console.log(token)
+var token = get_random(24);
+console.log(token);
 
 // 5cehbza1F7MltumQJ5IblcEU
 // BLupmz0NYEbnLBc417z1zItD

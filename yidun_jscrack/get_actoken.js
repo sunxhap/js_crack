@@ -4013,10 +4013,10 @@ function cb(a) {
     }).join(b[0])
 }
 
-function $b(a) {
+function $b(a, e) {
     var d = a.C
         , m = a.ia
-        , e = Y().j(ma)              // todo    http://ac.dun.163yun.com/v2/d   请求结果dt
+        , e = e  //Y().j(ma)              //   http://ac.dun.163yun.com/v2/d   请求结果dt
         // , e = 'UO2ejfom1S9AAVARURNuB9+sauokJ6tD'
         // , f = C[b[352]][b[469]].sa;
         , f = 1;
@@ -4068,7 +4068,7 @@ var l = function() {        // todo
     //         ia: z
     //     })))
     var z = false;
-    var p = 'SnetB/mJNidUVRQBEFZ/VqEUTUUdbHwN';
+    // var p = 'SnetB/mJNidUVRQBEFZ/VqEUTUUdbHwN';
 
     if (!z) {
         var tmp = $b({
@@ -4097,14 +4097,20 @@ function get_e(){
     // }
 }
 
-whole_p = Zb();
-console.log('p:', whole_p);
 
+// whole_p
+// e        http://ac.dun.163yun.com/v2/d   请求结果dt
 
-whole_p = "CKb+3frDdaBFAEAEURMqR9r4gOWjQ8J1";
+var e = "c9xRuuq7KLpAFQBBUBdvTSZUt//ZHndX";    // http://ac.dun.163yun.com/v2/d   请求结果dt
+var whole_p = Zb();             //  随机生成        // 有时间
+
+console.log('whole_p:', whole_p);
+
 var a_c = {"C": whole_p, "ia": false};
-console.log($b(a_c));
+console.log($b(a_c, e));
 
+// 9ca17ae2e6ffcda170e2e6eec3af2aa2fef6c3ae68e995e5adcf79b59f96b7c14e938f9eb7e725958d86b5c149a88d8b83c13fe2a3
+// 9ca17ae2e6ffcda170e2e6ee84bc7492abbb92b64190b08fa7d44a828b8e85f56091869b95ae259a98a285db2af0feaec3b92aedb4e5acaa4890adb9a2d95e829a9fb2d15ea8f199b4c960829dacb4c86a82ebee9e
 
 // var p = this.g.C = Zb();
 

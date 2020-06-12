@@ -6,6 +6,7 @@ import requests
 import os
 import sys
 import execjs
+import uuid
 
 requests.packages.urllib3.disable_warnings()
 
@@ -49,7 +50,7 @@ def get_conf():
 
     send_url = get_conf_url + urlencode(params)
     print(send_url)
-    res = requests.get(send_url, headers=headers, verify=False)
+    res = requests.get(send_url, headers=headers, verify=False, proxies=proxies)
     content = res.content
     cookie = requests.utils.dict_from_cookiejar(res.cookies)
 
@@ -110,7 +111,7 @@ def get_token(cookie_gid, s_type):
     # print(send_url)
 
     headers['Cookie'] = cookie_gid
-    res = requests.get(send_url, headers=headers, verify=False)
+    res = requests.get(send_url, headers=headers, verify=False, proxies=proxies)
     content = res.content
     print(content)
 
@@ -130,8 +131,18 @@ def downloader_image_identify(image):
         'Referer': 'https://dun.163.com/trial/icon-click',
         'Accept-Language': 'zh-CN,zh;q=0.9',
     }
-    res = requests.get(image, headers=headers, verify=False)
-    chaojiying_data = chaojiying.PostPic(res.content, 9103)
+    res = requests.get(image, headers=headers, verify=False, proxies=proxies)
+    res_content = res.content
+    file_name = 'image/' + str(uuid.uuid1()) + '.jpg'
+    print('file_name: ', file_name)
+    with open(file_name, 'wb') as f:
+        f.write(res.content)
+
+    chaojiying_data = chaojiying.PostPic(res_content, 9103)
+
+    with open('image/chaoji.txt', 'a+') as f:
+        f.write(file_name + "||" + chaojiying_data['pic_str'])
+        f.write('\n')
     return chaojiying_data
 
 
@@ -176,15 +187,46 @@ def res_check_id(token, cookie, data):
     # print(params)
     get_type_url = "https://c.dun.163yun.com/api/v2/check?"
     send_url = get_type_url + urlencode(params)
-    print(send_url)
+    # print(send_url)
 
-    res = requests.get(send_url, headers=headers, verify=False)
+    res = requests.get(send_url, headers=headers, verify=False, proxies=proxies)
     content = res.content
     return content
 
 
+def get_proxy():
+    global proxy_list
+    if not proxy_list:
+        # proxy_url = 'http://10.0.0.252:8899/api/Values?type=VPS&count=10'
+        for i in range(10):
+            proxy_url = "http://10.0.0.252:8899/api/Values?type=WD&count=5"
+            try:
+                proxy_res = requests.get(proxy_url)
+                if proxy_res.status_code == 200:
+                    proxy_list = proxy_res.text.split("\r\n")
+                    break
+            except:
+                pass
+
+    proxy_one = proxy_list[0]
+    proxy_list.remove(proxy_one)
+    # {"http": "http://223.244.160.116:3617", "https": "https://223.244.160.116:3617"}
+    # return {"http": "http://{}".format(proxy_one), "https": "https://{}".format(proxy_one)}
+    return {"http": "http://{}".format(proxy_one)}
+
+
+proxy_list = list()
+proxies = get_proxy()
+# proxies = ""
+print('proxies:', proxies)
+
+# 设置代理ip , ip被封过不了
 # mobile  不需要轨迹  pc 需要
 s_type = 'mobile'  # mobile, pc
+""""
+目前模拟移动端无轨迹 通过，
+    不通过一般是 超级鹰打点错误, 打点准确率很低
+"""
 
 if s_type == 'mobile':
     User_Agent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
@@ -221,7 +263,7 @@ print('-' * 50)
 
 # step3
 chaojiying_data = downloader_image_identify(get_token_data[2])  # 主要打点可能不准
-print(chaojiying_data)
+print('chaojiying_data:', chaojiying_data)
 
 # step4   js get data
 pic_str = chaojiying_data['pic_str']
@@ -239,7 +281,7 @@ for pic in pic_str.split('|'):
     y = 0.6667 * int(pic.split(',')[1])
     point_xy.append([x, y, time_deal])
     time_deal += 1600
-print(point_xy)
+print('point_xy: ', point_xy)
 
 # token_m = '1e99a7c8ceae493e9d7f6df741c56de6'
 # point_xy = [['123', '49'], ['56', '91'], ['225', '79']]
@@ -250,7 +292,7 @@ print(point_xy)
 
 data = ctx.call('get_ext_data_v4', token_m, point_xy, [])  # n_m 轨迹
 # b'__JSONP_o65berq_2({"error":100,"msg":"param check error"});' 可能轨迹问题
-print(data)
+print('trance', data)
 
 # step4
 # token_m = 'da0c82893c034dcda945b8f3d9bc14c9'

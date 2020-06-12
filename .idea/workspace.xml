@@ -5,7 +5,32 @@
       <change afterPath="$PROJECT_DIR$/../SliderCracker-1/yidun/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/geetest_v2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run_geetest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yidun/yidun_click/get_trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip_util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip_util/ip_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_util/Base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_util/DES3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_util/js_forge_brower.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_util/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruishu/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruishu/hubei20200610/4QbVtADbnLVIc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruishu/hubei20200610/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/.idea/smar_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/Base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/DES3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/pdf/test.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/samr_demo1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/samr_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smar_demo/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/util_md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/xiniu_api_success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/xiniu_p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/xiniudata-param.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/xiniudata-parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiniudata/xixiu_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pachong/Crack-JS/.idea/Crack-JS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/js/fullpage_w2.js" afterDir="false" />
@@ -15,10 +40,25 @@
       <change beforePath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/../git_geetest/geetest/bibibi/trace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun/yidun_click/yidun.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/.idea/ruishu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/.idea/ruishu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/wenshu20200514/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/wenshu20200514/RequestVerificationToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/RequestVerificationToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/wenshu20200514/cipher.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/cipher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/wenshu20200514/content_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/content_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/image/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun/image/yi2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/image/yi2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun/image/yi3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/image/yi3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun/image/yidun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/image/yidun.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py" beforeDir="false" afterPath="$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_success.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_success.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_verdify.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_verdify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun_jscrack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/yidun_jscrack/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yidun_jscrack/get_actoken.js" beforeDir="false" afterPath="$PROJECT_DIR$/yidun_jscrack/get_actoken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pachong/Crack-JS/wenshu190902/content_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/Crack-JS/wenshu190902/content_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pachong/Crack-JS/wenshu190902/pageld.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pachong/Crack-JS/wenshu190902/pageld.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,56 +71,62 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="20" />
-          <entry key="md" value="1" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="53" />
+          <entry key="md" value="9" />
           <entry key="png" value="1" />
-          <entry key="py" value="24" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="48" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Image" value="1" />
-          <entry key="JavaScript" value="20" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="24" />
+          <entry key="Image" value="6" />
+          <entry key="JavaScript" value="53" />
+          <entry key="Markdown" value="9" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="66" />
-          <entry key="js" value="14" />
-          <entry key="py" value="950" />
+          <entry key="js" value="262" />
+          <entry key="md" value="179" />
+          <entry key="py" value="2367" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="14" />
-          <entry key="PLAIN_TEXT" value="66" />
-          <entry key="Python" value="950" />
+          <entry key="JavaScript" value="262" />
+          <entry key="Markdown" value="179" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Python" value="2367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
+            <state relative-caret-position="76">
+              <caret line="292" column="32" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="32" />
               <folding>
                 <element signature="e#51#66#0" expanded="true" />
               </folding>
@@ -89,68 +135,93 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13392">
-              <caret line="496" column="17" selection-start-line="496" selection-start-column="17" selection-end-line="496" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_success.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16578">
-              <caret line="614" column="22" selection-start-line="614" selection-start-column="22" selection-end-line="614" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_verdify.js">
+        <entry file="file://$PROJECT_DIR$/xiniudata/xiniudata-param.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_click.py">
+        <entry file="file://$PROJECT_DIR$/xiniudata/xiniudata-parse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="71">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_click_jzsc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="432">
+                <caret line="37" column="69" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="69" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun/yidun_test/geetest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="63" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="335">
+                <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yidun/yidun_test/get_trace.py">
+        <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/baikewanjia/baikewangjia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="405">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
-                <element signature="e#154#165#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/gsxt_gg/gsxtgg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiniudata/xixiu_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="37" />
+              <folding>
+                <element signature="e#26#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiniudata/xiniu_p.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiniudata/xiniu_api_success.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-111">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -166,36 +237,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ac_token</find>
-      <find>token</find>
-      <find>slider_js</find>
-      <find>slider_encrypt</find>
-      <find>res_check_id token</find>
-      <find>this.onVerifyCaptcha({</find>
-      <find>User-Agent</find>
-      <find>92a3e4d5b37648529da324c382c65c0f</find>
-      <find>v</find>
-      <find>self.ctx</find>
-      <find>get_cookie</find>
-      <find>get_proxy</find>
-      <find>proxies</find>
-      <find>HifJzoc9</find>
-      <find>FSSBBIl1Ugz</find>
-      <find>_init_captcha</find>
-      <find>_generate_trace</find>
-      <find>tracks_list</find>
-      <find>process_trace</find>
-      <find>click_encrypt</find>
-      <find>_encrypt_click</find>
-      <find>1500</find>
-      <find>3000</find>
-      <find>254.0127</find>
-      <find>138.0069</find>
       <find>fp</find>
-      <find>get_token</find>
-      <find>get_ext_data_v4</find>
       <find>get_trace_by_position_v2</find>
       <find>headers</find>
+      <find>z || (U(B),</find>
+      <find>get_proxy</find>
+      <find>requests.</find>
+      <find>downloader_image_identify</find>
+      <find>chaojiying_data</find>
+      <find>FSSBBIl1UgzbN7N80S</find>
+      <find>proxies</find>
+      <find>get_token</find>
+      <find>get_token_data</find>
+      <find>1101000 111001 110100 111000 1110011 1000001 1110</find>
+      <find>execjs</find>
+      <find>HifJzoc9</find>
+      <find>ciphertext</find>
+      <find>cipher</find>
+      <find>__RequestVerificationToken</find>
+      <find>80S</find>
+      <find>xiniudata</find>
+      <find>犀牛数据</find>
+      <find>get_ext_data_v4</find>
+      <find>parse_js</find>
+      <find>hex_md5_data</find>
+      <find>JSFuck</find>
+      <find>国家企业信用信息公示系统公告</find>
+      <find>params_1</find>
+      <find>parse_data</find>
+      <find>ctx</find>
+      <find>中国产品大目录</find>
     </findStrings>
     <dirStrings>
       <dir>C:\sx\pro_git\github\geetest-crack_bak\geetest_crack</dir>
@@ -204,6 +275,10 @@
       <dir>C:\sx\pro_git\github\SliderCracker-1\yidun</dir>
       <dir>C:\sx\pro_git\github\js_crack\yidun\yidun_test</dir>
       <dir>C:\sx\pro_git\github\js_crack\yidun\yidun_click</dir>
+      <dir>C:\sx\pro_git\github\js_crack</dir>
+      <dir>C:\sx\pro_git\github\js_crack\openlaw</dir>
+      <dir>C:\sx\pro_git\github\js_crack\ruishu</dir>
+      <dir>C:\sx\pro_git\github\pachong\Crack-JS</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -215,22 +290,37 @@
         <option value="$PROJECT_DIR$/ruishu/test.py" />
         <option value="$PROJECT_DIR$/ruishu/wenshu190902/content_list.js" />
         <option value="$PROJECT_DIR$/ruishu/wenshu_search.py" />
-        <option value="$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py" />
         <option value="$PROJECT_DIR$/openlaw/openlaw_spider.py" />
         <option value="$PROJECT_DIR$/yidun_click/yidun_get_conf.py" />
         <option value="$PROJECT_DIR$/yidun_click/yidun_get_conf_success.py" />
         <option value="$PROJECT_DIR$/yidun_click/yidun_slide/yidun_get_conf_slide.py" />
         <option value="$PROJECT_DIR$/yidun/yidun_click/yidun.js" />
         <option value="$PROJECT_DIR$/yidun/yidun_click/get_trace.py" />
+        <option value="$PROJECT_DIR$/yidun_jscrack/get_actoken.js" />
         <option value="$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py" />
+        <option value="$PROJECT_DIR$/smar_demo/DES3.js" />
+        <option value="$PROJECT_DIR$/smar_demo/README.md" />
+        <option value="$PROJECT_DIR$/smar_demo/samr_search.py" />
+        <option value="$PROJECT_DIR$/ruishu/wenshu20200514/README.txt" />
+        <option value="$PROJECT_DIR$/ruishu/wenshu20200514/cipher.js" />
+        <option value="$PROJECT_DIR$/ruishu/wenshu20200514/README.md" />
+        <option value="$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py" />
+        <option value="$PROJECT_DIR$/ip_util/ip_util.py" />
+        <option value="$PROJECT_DIR$/xiniudata/README.md" />
+        <option value="$PROJECT_DIR$/xiniudata/xiniu_api_success.js" />
+        <option value="$PROJECT_DIR$/xiniudata/xixiu_request.py" />
+        <option value="$PROJECT_DIR$/xiniudata/xiniudata-parse.js" />
+        <option value="$PROJECT_DIR$/xiniudata/xiniu_p.js" />
+        <option value="$PROJECT_DIR$/../pachong/Crack-JS/gsxt_gg/gsxtgg.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="176" />
-    <option name="y" value="103" />
-    <option name="width" value="1434" />
-    <option name="height" value="933" />
+    <option name="x" value="663" />
+    <option name="y" value="53" />
+    <option name="width" value="1616" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectId" id="1bAdhexppEXYZkSfMUYGd7fA8uD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -239,6 +329,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,34 +340,7 @@
             <path>
               <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_crack" type="462c0819:PsiDirectoryNode" />
-              <item name="mitmproxy_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_crack" type="462c0819:PsiDirectoryNode" />
-              <item name="ruishu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_crack" type="462c0819:PsiDirectoryNode" />
-              <item name="yidun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_crack" type="462c0819:PsiDirectoryNode" />
-              <item name="yidun" type="462c0819:PsiDirectoryNode" />
-              <item name="yidun_click" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_crack" type="462c0819:PsiDirectoryNode" />
-              <item name="yidun" type="462c0819:PsiDirectoryNode" />
-              <item name="yidun_slide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_crack" type="462c0819:PsiDirectoryNode" />
-              <item name="yidun_jscrack" type="462c0819:PsiDirectoryNode" />
+              <item name="xiniudata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_crack" type="b2602c69:ProjectViewProjectNode" />
@@ -286,24 +350,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qcc/spiderprocessor_v5/spiderprocessor" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\sx\pro_git\github\js_crack\yidun\yidun_click" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sx\pro_git\github\js_crack" />
+      <recent name="C:\sx\pro_git\github\js_crack\smar_demo" />
       <recent name="C:\sx\pro_git\github\js_crack\yidun_click\yidun_slide" />
       <recent name="C:\sx\pro_git\github\js_crack\openlaw" />
       <recent name="C:\sx\pro_git\github\js_crack\ruishu\wenshu20200514" />
-      <recent name="C:\sx\pro_git\github\js_crack\yidun_click\image" />
-      <recent name="C:\sx\pro_git\github\js_crack\yidun_click" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\sx\pro_git\github\js_crack\smar_demo\pdf" />
+      <recent name="C:\sx\pro_git\github\js_crack\yidun\yidun_click" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,7 +382,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yidun_get_conf_success (1)">
+  <component name="RunManager" selected="Python.xixiu_request">
+    <configuration name="_external_runtime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bibibi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/execjs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/execjs/_external_runtime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="geetest" type="PythonConfigurationType" factoryName="Python">
       <module name="js_crack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,19 +425,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_trace" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js_crack" />
+    <configuration name="wenshu_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ruishu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yidun/yidun_click" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ruishu/wenshu20200514" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun/yidun_click/get_trace.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +446,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yidun_click" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="xixiu_request" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js_crack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,11 +454,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yidun/yidun_click" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xiniudata" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun/yidun_click/yidun_click.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xiniudata/xixiu_request.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,27 +480,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun/yidun_click/yidun_click_jzsc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="yidun_get_conf_slide" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js_crack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yidun_click/yidun_slide" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yidun_click/yidun_slide/yidun_get_conf_slide.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,19 +511,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.geetest" />
-      <item itemvalue="Python.yidun_get_conf_slide" />
       <item itemvalue="Python.yidun_get_conf_success (1)" />
-      <item itemvalue="Python.get_trace" />
-      <item itemvalue="Python.yidun_click" />
       <item itemvalue="Python.yidun_click_jzsc" />
+      <item itemvalue="Python.wenshu_search" />
+      <item itemvalue="Python.xixiu_request" />
+      <item itemvalue="Python._external_runtime" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.yidun_get_conf_success (1)" />
+        <item itemvalue="Python.xixiu_request" />
+        <item itemvalue="Python._external_runtime" />
         <item itemvalue="Python.yidun_click_jzsc" />
-        <item itemvalue="Python.yidun_click" />
-        <item itemvalue="Python.get_trace" />
-        <item itemvalue="Python.yidun_get_conf_slide" />
+        <item itemvalue="Python.yidun_get_conf_success (1)" />
+        <item itemvalue="Python.wenshu_search" />
       </list>
     </recent_temporary>
   </component>
@@ -491,19 +555,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14172813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17492098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7876712" visible="true" weight="0.36916396" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5779768" weight="0.3441911" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78134876" visible="true" weight="0.34636265" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5742887" weight="0.41476655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21232876" side_tool="true" visible="true" weight="0.31921825" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2186512" side_tool="true" weight="0.3583062" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -574,13 +638,68 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py</url>
-          <line>212</line>
-          <option name="timeStamp" value="19" />
+          <line>112</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py</url>
-          <line>111</line>
-          <option name="timeStamp" value="20" />
+          <line>264</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/smar_demo/samr_search.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/smar_demo/samr_search.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/smar_demo/samr_search.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/smar_demo/samr_search.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/smar_demo/samr_search.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xiniudata/xixiu_request.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xiniudata/xixiu_request.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xiniudata/xixiu_request.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -635,32 +754,27 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>cookie_gid</expression-string>
+        <expression-string>res.text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>position</expression-string>
+        <expression-string>res.json</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>get_token_data</expression-string>
+        <expression-string>r_content</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.findall(&quot;document.(cookie=.+)\+';Expires&quot;, js2)</expression-string>
+        <expression-string>data_js</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>response</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>RequestVerificationToken(24)</expression-string>
+        <expression-string>data['d']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -670,254 +784,135 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>res</expression-string>
+        <expression-string>f.read()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>json.loads(re.findall(r'\((.*?)\);', content.decode('utf-8'))[0])</expression-string>
+        <expression-string>f.read().decode()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res.json()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json_data</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/xiniudata/xiniudata-param.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-996" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/weibo/sp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="939" column="17" selection-start-line="939" selection-start-column="17" selection-end-line="939" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../botgate-RuiShu-Spider/script/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10392">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mitmproxy_demo/ruishu_debugger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../botgate-RuiShu-Spider/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="138" column="46" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/cods_test_geetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/wenshu190902/RequestVerificationToken.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/gsxt_gg/jsl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/xiniudata/xiniudata-parse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/jsfuck/jsfuck.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/meituan/meituan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/meituan/meituan.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/openlaw/openlaw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="3907" column="27" selection-start-line="3907" selection-start-column="27" selection-end-line="3907" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruishu/get_Token.js" />
-    <entry file="file://$PROJECT_DIR$/ruishu/h2ed9.js" />
-    <entry file="file://$PROJECT_DIR$/ruishu/datasearch.html" />
-    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2572">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruishu/wenshu_search.py" />
-    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/pageld.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/image/3375a1d0-a983-11ea-ac3a-e454e8684821.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_success.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
-          <caret line="51" column="79" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="79" />
+          <caret line="51" column="78" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/config.py">
+    <entry file="file://$PROJECT_DIR$/yidun_jscrack/old_watchman.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97956">
+          <caret line="3628" column="46" selection-start-line="3625" selection-start-column="54" selection-end-line="3628" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_jscrack/original/watchman.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/image/a3899cd2-aa40-11ea-9eb2-e454e8684821.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/openlaw/openlaw_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="457">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smar_demo/DES3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smar_demo/Base64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlaw/openlaw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="3896" column="40" selection-start-line="3896" selection-start-column="40" selection-end-line="3896" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smar_demo/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smar_demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="7" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/openlaw/openlaw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smar_demo/samr_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="35" />
+          <folding>
+            <element signature="e#50#65#0" expanded="true" />
+            <marker date="1591838709882" expanded="true" signature="936:941" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/cipher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="313">
+          <caret line="1601" column="15" selection-start-line="1601" selection-start-column="9" selection-end-line="1601" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruishu/wenshu190902/content_list.js">
+    <entry file="file://$PROJECT_DIR$/smar_demo/samr_demo1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36909">
-          <caret line="1367" selection-start-line="1367" selection-end-line="1367" />
+        <state relative-caret-position="255">
+          <caret line="1100" column="46" lean-forward="true" selection-start-line="1100" selection-start-column="46" selection-end-line="1100" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geetest_slide2_tianyancha/slide2_success.py">
+    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/content_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-648" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../geetest-crack_bak/geetest_crack/geetest_session.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openlaw/openlaw.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_slide/yidun_slide.py">
+    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/image/chaoji.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_slide/chaojiying.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_slide/yidun.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_slide/yidun_get_conf_slide.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_test/generate_fp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun_jscrack/jianzhushichang_README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_test/yd_slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/encrypt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/gsxt_gg/gsxtgg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SliderCracker-1/yidun/generate_fp.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_test/encrypt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/get_trace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="92" column="31" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
-          <folding>
-            <element signature="e#51#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13392">
-          <caret line="496" column="17" selection-start-line="496" selection-start-column="17" selection-end-line="496" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_success.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16578">
-          <caret line="614" column="22" selection-start-line="614" selection-start-column="22" selection-end-line="614" selection-end-column="22" />
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -931,29 +926,243 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_jscrack/jianzhushichang_README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_jscrack/get_actoken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110754">
+          <caret line="4102" selection-start-line="4102" selection-end-line="4102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruishu/yaojianju_encrypt20200225.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/pageld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/RequestVerificationToken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruishu/wenshu20200514/wenshu_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="74" column="59" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="59" />
+          <folding>
+            <element signature="e#50#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruishu/xiniudata/xiniudata-parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_click_jzsc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="297">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_test/geetest.py">
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/xiniudata/xiniudata-param.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="63" />
+        <state relative-caret-position="-1145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/xiniudata/xiniudata-parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yidun/yidun_test/get_trace.py">
+    <entry file="file://$PROJECT_DIR$/geetest_slide3_demo/slide3_api_test_cods_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="-6055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun_jscrack/core_modify_simfity_success.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <caret line="571" selection-start-line="571" selection-end-line="571" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ip_util/ip_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiniudata/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiniudata/xiniudata-param.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="494" column="24" selection-start-line="494" selection-start-column="9" selection-end-line="494" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yidun/yidun_click/yidun_get_conf_success.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="292" column="32" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="32" />
           <folding>
-            <element signature="e#154#165#0" expanded="true" />
+            <element signature="e#51#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/execjs/_external_runtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1287" selection-start-line="1287" selection-end-line="1287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiniudata/xiniu_api_success.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiniudata/xiniu_p.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/jsfuck/jsfuck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/execjs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/gsxt_gg/jsl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/gsxt_gg/gsxtgg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/baikewanjia/baikewangjia.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/baikewanjia/baikewangjia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiniudata/xiniudata-parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pachong/Crack-JS/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="37" column="69" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="335">
+            <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiniudata/xixiu_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <element signature="e#26#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

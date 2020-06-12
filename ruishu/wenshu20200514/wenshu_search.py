@@ -3,10 +3,30 @@
 
 import requests
 
+import execjs
+
+with open('cipher.js', 'rb') as f:
+    cipher_js = execjs.compile(f.read().decode())
+
+with open('pageld.js', 'rb') as f:
+    pageld_js = execjs.compile(f.read().decode())
+
+
+def get_cipher():
+    return cipher_js.call('cipher')
+
+
+def get_pageld():
+    return pageld_js.call('get_uuid')
+
+
 # ciphertext 时间相关
-ciphertext = '1100100 1010101 1110101 1110000 110010 1111000 1100001 110111 1001010 110000 1001011 1100110 110010 1010001 110010 1001010 1111000 110011 110010 110101 1101000 1000111 1001000 1010101 110010 110000 110010 110000 110000 110101 110001 110100 1100011 110111 1100010 1010010 111001 1110101 110011 110110 1100011 1000100 1001011 1011010 111000 110110 1100101 1101010 1101001 1100001 111000 1000001 1010110 1010001 111101 111101'
+ciphertext = get_cipher()
+print('ciphertext', ciphertext)
 
 pageId = 'aedb8d8257db4dd51ba997ba9b4298c2'
+# pageId = get_pageld()
+print('pageId', pageId)
 
 __RequestVerificationToken = 'jtUdmIWWgbSVZJDbNXHcw5aq'
 
@@ -56,9 +76,6 @@ data = {
     'cfg': 'com.lawyee.judge.dc.parse.dto.SearchDataDsoDTO@queryDoc',
     '__RequestVerificationToken': __RequestVerificationToken
 }
-
-# response = requests.post('http://wenshu.court.gov.cn/website/parse/rest.q4w', headers=headers, params=params,
-#                          cookies=cookies, data=data, verify=False)
 
 response = requests.post('http://wenshu.court.gov.cn/website/parse/rest.q4w', headers=headers, params=params,
                          data=data, verify=False)

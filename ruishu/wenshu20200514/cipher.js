@@ -1585,7 +1585,21 @@ strTobinary=function(str){
     return result.join("");
 }
 
-cipher=function(){
+// cipher=function(){
+//     var date = new  Date();
+//     var timestamp = date.getTime().toString();
+//     var salt =get_random(24);
+//     var year=date.getFullYear().toString();
+//     var month = (date.getMonth()+1<10 ? "0"+(date.getMonth()+1) : date.getMonth()).toString();
+//     var day = (date.getDate()<10 ? "0"+date.getDate() : date.getDate()).toString();
+//     var iv =year+month+day;
+//     var enc = DES3.encrypt(timestamp,salt,iv).toString();
+//     var str = salt+iv+enc;
+//     var ciphertext = strTobinary(str);
+//     return ciphertext;
+// }
+
+function cipher(){
     var date = new  Date();
     var timestamp = date.getTime().toString();
     var salt =get_random(24);
@@ -1598,5 +1612,6 @@ cipher=function(){
     var ciphertext = strTobinary(str);
     return ciphertext;
 }
+
 var hhhh = cipher();
 console.log(hhhh);
