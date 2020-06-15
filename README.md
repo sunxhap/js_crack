@@ -9,9 +9,11 @@
 - [ ] geetest_slide2_tianyancha	天眼查登录 极验滑块3代
 
 - [ ] www_gsxt_gov_cn
-      gsxt_app_test   可获得根据关键词搜索的列表页结果
-      gsxt_web_test   网页端
-      gsxt_web_hotScheduled	热搜榜
+          gongshang_gsxt 破解加速乐
+          
+          gsxt_app_test   可获得根据关键词搜索的列表页结果
+          gsxt_web_test   网页端
+          gsxt_web_hotScheduled	热搜榜
       
 - [ ] ruishu   瑞数
 

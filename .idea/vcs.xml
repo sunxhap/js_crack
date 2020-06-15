@@ -10,5 +10,6 @@
     <mapping directory="$PROJECT_DIR$/../pachong/Crack-JS" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../teambition-api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wenshu_utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../mmewmd_crack_for_wenshu" vcs="Git" />
   </component>
 </project>

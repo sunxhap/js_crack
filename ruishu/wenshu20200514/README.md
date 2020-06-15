@@ -20,7 +20,10 @@
     secretKey
     result
     
-    通过 content_list.js 解密
+    content_list.js
+        列表页返回结果解密
+    
+    
     
     
     var postData = eval("addParams" + d.searchMid + "("
