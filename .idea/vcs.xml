@@ -8,8 +8,14 @@
     <mapping directory="$PROJECT_DIR$/../geetest-crack_bak" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../git_geetest/geetest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pachong/Crack-JS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pachong/HM4hUBT0dDOn80T_for_wenshu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pachong/PythonSpider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pachong/ob-decrypt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pachong/shumei_captcha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pachong/yidun" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../teambition-api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wenshu_utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../mmewmd_crack_for_wenshu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../qcc/spiderprocessor_v5/spiderprocessor" vcs="Git" />
   </component>
 </project>

@@ -558,3 +558,20 @@ console.log(get_ext_data_v4(token, point_xy, []));
 // console.log('cb', param_l_get_cb);
 
 
+// [[126.67299999999999, 60.00299999999999, 0], [280.014, 110.0055, 1600], [243.3455, 67.3367, 3200]]
+
+
+function RandomNum(Min, Max){
+    var Range = Max - Min;
+    var Rand = Math.random();
+    var num = Min + Math.floor(Range * Rand);
+    return num;
+}
+
+
+function getDa(t){
+    var arr = t.split("|");
+    var bb = RandomNum(2000, 2500)/30;
+    var cc = RandomNum(2000, 2500)/arr.length;
+
+}

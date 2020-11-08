@@ -2,29 +2,78 @@
 
 ### 瑞数
     裁判文书
-    http://wenshu.court.gov.cn/
-    http://wenshu.court.gov.cn/website/wenshu/181029CR4M5A62CH/index.html
+        http://wenshu.court.gov.cn/
+        http://wenshu.court.gov.cn/website/wenshu/181029CR4M5A62CH/index.html
     
     药监局
         http://app1.nmpa.gov.cn/datasearchcnda/face3/base.jsp?tableId=25&tableName=TABLE25&title=%E5%9B%BD%E4%BA%A7%E8%8D%AF%E5%93%81&bcId=152904713761213296322795806604
-
+        
+        http://app1.nmpa.gov.cn/data_nmpa/face3/base.jsp?tableId=136&tableName=TABLE136&title=%D2%BD%C1%C6%C6%F7%D0%B5%BE%AD%D3%AA%C6%F3%D2%B5%A3%A8%D0%ED%BF%C9%A3%A9&bcId=154209512434322144199787151065&CbSlDlH0=qAcBcaky5Ivy5Ivy5FGGWA8Spw9mHby7aykL5XoSBBlqqH9
+        
     江苏省农村产权 http://www.jsnc.gov.cn/jygg/tzgg/index.html
 
-
-search row
-
-pageId	f21ab1a5a97dfc64c08cb512ac0694a4
-s17	上海重型机器厂有限公司
-
-GET http://wenshu.court.gov.cn/website/wenshu/181217BMTKHNT2W0/index.html?pageId=f21ab1a5a97dfc64c08cb512ac0694a4&s17=%E4%B8%8A%E6%B5%B7%E9%87%8D%E5%9E%8B%E6%9C%BA%E5%99%A8%E5%8E%82%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8 HTTP/1.1
-Host: wenshu.court.gov.cn
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Referer: http://wenshu.court.gov.cn/
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh;q=0.9
-Cookie: HM4hUBT0dDOn80S=uvWtKjrhb87SseszY2Xpi.9lWJfIT_PDqp7H40eO7dpk.OQjhxnV3EFPf5aHAUe7; SESSION=63b8e269-e7b5-4b8c-9b5c-bf975870295f; HM4hUBT0dDOn80T=4CiGonSj1UlkZcY3ifYn9yI37TNAkgdSSTxHnqCU66GR65pXrOIQ4fQPoYBpILgP0pdEjWnm8e5L2Pfm094W5ey6bNCCG46BacvEQKaCrhm.q25ZQ0CHo4Z2k_1775C_qCoHCCenojd0FWGz6MJ9BZ0IPDs_vogpUZhd1nCxa4oTWeP5YmEodLo3jw5thup.DtwAQJvNKZass4c2c5ZHUCH3RhwW.DKkXbMufCIjQ3766uoneIdQaXnUIvwKCU8IY6fs33JL0lbQUj.XB1rOTBdAlOeCZaTLvHAeU_NNRJwVSB7C6dxKaUL57ONzuMfb18VCYz1uMBloFBsG1vverFYBcMaJgICqFFJTsWwd61v2wlCbt60LIGLUuCeoewcEuNCE
-
-
+    中国联合网络通信集团有限公司
+        http://www.chinaunicombidding.cn/jsp/cnceb/web/info1/detailNotice.jsp?id=4404703300000008133
+        
+        tender_qiye_www_chinaunicombidding_cn
+        
+    中国移动
+        https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=2
+        
+        不同的栏目需要加Referer, url参数直接生成
+        
+            cookie 参数值生成的地方
+                    debugger  
+                    F9 单步下去 断点在能断点的地方
+                
+                新版本
+                    进vm $_ts 值空, 在页面被重新赋值
+                    可在页面 把赋值代码干掉
+    
+    国家电力投资集团有限公司
+        http://www.cpeinet.com.cn
+        tender_qiye_www_cpeinet_com_cn
+        
+        http://www.cpeinet.com.cn/cpcec/bul/bul_list.jsp?type=1
+        
+    python2
+        from spiderprocessor.common.ruishu_util import get_url_80t
+    
+    重大税收违法事件_宁波
+        http://ningbo.chinatax.gov.cn/col/col6166/index.html 
+            点击 提交
+            
+            http://www.chinatax.gov.cn/chinatax/c101249/n2020011502/index.html
+        
+    重大税收违法事件_江苏
+        https://jiangsu.chinatax.gov.cn/col/col16916/index.html
+        
+    四川成都青白江环保厅,环保行政处罚
+        SiChuanChenDuQingbaijiangEnvPunish
+    
+    中国专利公布公告        浏览器指纹   typ == 'cnipa'
+        patent_notice      py3
+        http://epub.sipo.gov.cn
+        
+    
+    全国非特殊用途化妆品备案
+        http://ftba.nmpa.gov.cn:8181/ftban//fw.jsp
+        
+### 注意总结
+     中国移动
+        arguments[1]);  分页url参数值
+                每次不同不可复用
+                url参数 和固定页面绑定
+            
+        click 生成新的cookie
+        
+        cookie 参数值生成的地方
+                debugger  
+                F9 单步下去 断点在能断点的地方
+            
+            新版本
+                进vm $_ts 值空, 在页面被重新赋值
+                可在页面 把赋值代码干掉
+        
+         _$pu(773, 3);      
+            todo     3);    这里面赋值

@@ -29,7 +29,8 @@ from chaojiying import Chaojiying_Client
 
 uid = "07e2387ab53a4d6f930b8d9a9be71bdf"
 
-chaojiying = Chaojiying_Client('chaojiying998', 'WENanzhe123', '2004')  # 用户中心>>软件ID 生成一个替换 96001
+# chaojiying = Chaojiying_Client('chaojiying998', 'WENanzhe123', '2004')  # 用户中心>>软件ID 生成一个替换 96001
+chaojiying = Chaojiying_Client('saber0201', 'w724228', '905914')  # 用户中心>>软件ID 生成一个替换 96001
 
 with open('yidun.js', 'rb') as f:
     yidun_js = f.read().decode()
@@ -199,7 +200,7 @@ def get_proxy():
     if not proxy_list:
         # proxy_url = 'http://10.0.0.252:8899/api/Values?type=VPS&count=10'
         for i in range(10):
-            proxy_url = "http://10.0.0.252:8899/api/Values?type=WD&count=5"
+            proxy_url = "http://10.0.0.252:8899/api/Values?type=VPS&count=5"
             try:
                 proxy_res = requests.get(proxy_url)
                 if proxy_res.status_code == 200:

@@ -6,6 +6,9 @@
     建筑市场
         http://jzsc.mohurd.gov.cn/data/company
 
+#### 文件
+    core_fp.js      获取fp参数
+
 ### 记录
     
     谷歌浏览器   移动端  
@@ -173,7 +176,20 @@
                    runEnv: S
                }, $, {
      
-      
+    fingerprint fp
+            var n = window.gdxidpyhxde
+                  , i = Object.assign({}, c.state, {
+                    config: e,
+                    fingerprint: n,
+            
+             se = s[18]
+             
+        function W() {
+        h = h + u[7] + p,
+    
+    uo91sMcE/kQ8x3fUQipNSRN4EjOmSSMy0JyTmGzypcagJ4gmCKGH5AsncIp1gjSGX0fxmyh6ccK9UniLZP1KEWKBdvnfV9p67kOJ1gyL\+G1n7e+cmuz2WCy9i7Yzn7supJec0a7Iks1kgQJEeNgBKN5+hHKLDU8mchvS+yk59dkZyvN:1593431690891
+    
+    
           
      参数
         id	07e2387ab53a4d6f930b8d9a9be71bdf
@@ -249,3 +265,9 @@
     Accept-Language: zh-CN,zh;q=0.9
     Cookie: _gid=GA.6195610393.24770849589418; _ga=GA.1.277cd4152432f.7ca242e2fcc8521648d7
     """
+    
+#### 参考
+    易盾 - 可疑用户-滑动拼图 - 破解：https://blog.csdn.net/dancheng1/article/details/106839773
+    反爬虫之网易易盾分析：https://blog.csdn.net/wu0che28/article/details/103050970
+    网易滑动验证码破解：https://www.jianshu.com/p/f12679a63b8d
+    反爬虫之网易易盾分析：https://zhuanlan.zhihu.com/p/91607971

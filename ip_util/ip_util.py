@@ -6,11 +6,11 @@ import requests
 proxy_list = list()
 
 
-def get_proxy():
+def get_proxy(type):
     global proxy_list
     if not proxy_list:
         for i in range(10):
-            proxy_url = "http://10.0.0.252:8899/api/Values?type=WD&count=1"
+            proxy_url = "http://10.0.0.252:8899/api/Values?type={}&count=1".format(type)
             try:
                 proxy_res = requests.get(proxy_url)
                 if proxy_res.status_code == 200:

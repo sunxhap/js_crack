@@ -30,5 +30,8 @@
   ​			中国市场监管---行政处罚文书网
 
 - [ ] xiniudata     烯牛数据
-
+   
+   外卖平台
+   https://blog.csdn.net/weixin_43189702/article/details/109020017
+   https://static.waitwaitpay.com/web/sd_se/index.html#/search/searchfor=vendor&keyword=%E7%B1%B3%E7%B2%89
 
