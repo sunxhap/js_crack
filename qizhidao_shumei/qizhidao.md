@@ -61,3 +61,7 @@ Bht6BQAAsmAesData    aesEncrypt   priId  md5(uuid)[0: 16]   f53a316d1d7d2742
 CBC  偏移量 0102030405060708    HEX编码data 
 smAesData   _0x307804 
 ```
+
+#### 目录
+    qzd_api.js  nodejs接口
+    qizhidao.py  py爬虫demo

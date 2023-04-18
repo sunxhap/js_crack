@@ -74,8 +74,6 @@ class Demo(object):
                 # 'eagleeye-sessionid': 'bXlb3g8CeRUy0kpjXpqIb2867m5w',
                 'accept': 'application/json, text/plain, */*',
                 # 'device-id': 'Bic+DbNhiM0HpBYYryF1SVpFAcCJbkaWB2tsoOFRMLBN+2YwxbVUDM5l6CCGY7HH7JgY5ILUis6VSDR7uP0uQKw==',
-                # 'device-id': 'Bic+DbNhiM0HpBYYryF1SVpFAcCJbkaWB2tsoOFRMLBN+2YwxbVUDM5l6CCGY7HH7JgY5ILUis6VSDR7uP0uQKw==',
-                # 'device-id': 'BE6Hi5P3zU30zUvn0eaXvChjJH5DqFFhTN4Cyq8HiHBwfeFsRQvoz9AUDOdkv+WBBeiFhYYJr21uDmWPSek15eA==',
                 'device-id': 'B' + 'Vcp2qAujXufM7YbrPTVFNZqjEhy2/Ynu+iv4BoL1ZT8banduY2jd3f7U4ulXOjgq+BC6tYpyfo7U/6M+p/h8sA==',
                 'sec-ch-ua-platform': '"Windows"',
                 'origin': 'https://www.qizhidao.com',
@@ -95,7 +93,8 @@ class Demo(object):
 
     def get_proxy(self):
         try:
-            res = requests.get("http://10.0.0.252:8899/api/Values?type=SZ&count=1")
+            # 获取代理接口
+            res = requests.get("")
             return res.text
         except Exception as e:
             traceback.print_exc()
@@ -105,8 +104,8 @@ class Demo(object):
         # 代理
         self.global_proxy = self.get_proxy()
         if self.global_proxy and ':' in self.global_proxy:
-            self.global_proxies = {'https': 'https://cdqlln:cdqlln111@{}'.format(self.global_proxy),
-                                   'http': 'http://cdqlln:cdqlln111@{}'.format(self.global_proxy)}
+            self.global_proxies = {'https': 'https://{}'.format(self.global_proxy),
+                                   'http': 'http://{}'.format(self.global_proxy)}
 
             self.global_session.proxies = self.global_proxies
             return True
