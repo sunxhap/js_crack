@@ -1,0 +1,18 @@
+{
+  "name": "qizhidao_shumei",
+  "version": "1.0.0",
+  "description": "qzd",
+  "main": "qzd_api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.18.0",
+    "zlib": "^1.0.5",
+    "md5-node": "^1.0.1"
+  }
+}
