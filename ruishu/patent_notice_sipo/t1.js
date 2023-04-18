@@ -1,8 +1,0 @@
-var _$p5 = [254, 3, 3, [0, 195, 130, 226],
-    [129, 128, 0, 0, 0, 0, 0, 0], 14, 1, token7,
-    [136, 93, 198, 125, 38, 163, 153, 61, 92, 55, 48, 41, 58, 134, 117, 92, 52, 25, 99, 113], [0, 0], [0, 32], [0, 1], [0, 0], [0, 0], [0, 0], [0, 1], [0, 0], [0, 63], [0, 0], [0, 0], 100, [0, 0], 0, [1, 159], [Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255), 93, 33, 13], 2, [1, Math.round(Math.random() * 255)], 4, [0, Math.round(Math.random() * 255), 0, 29, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Math.round(Math.random() * 255), 0, 0, 0, 0, 0, false], 9, [Math.round(Math.random() * 255), Math.round(Math.random() * 255), 99, 97, Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255)], 239, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null];
-var _$2I = 32;
-
-var token7 = _$p5[7];
-
-console.log(token7);
